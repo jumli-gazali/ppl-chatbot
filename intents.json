@@ -48,21 +48,6 @@
 "context": [""]
 },
 
-
-
-
-{"tag": "join",
-"patterns": ["how to join", "join"],
-"responses": ["Contact us on our FB or Telegram channel for details on joining.Find out more here: <a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
-"context": [""]
-},
-
-{"tag": "how_much",
-"patterns": ["how much", "cost", "money", "pay"],
-"responses": ["Free for guests but about 50USD every six months for members. Contact us on our FB or Telegram channel for details on joining our international club.", "Payment is made through our Treasurer. Please contact us on our FB or Telegram channel for details."],
-"context": [""]
-},
-
 {"tag": "test",
         "patterns": ["t"],
         "responses": ["1","2","3","4","5"],
