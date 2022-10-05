@@ -1,8 +1,8 @@
 {"intents": [
- {
-  "tag": "greetings",
+ {"tag": "greetings",
   "patterns": "Hai",
   "responses": "Hai, apa yang bisa saya bantu? ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai ..."
+  "context": [""]
  },
  {
   "patterns": "Halo"
@@ -12,14 +12,14 @@
  },
  {
   "responses": "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai ... , apa yang bisa saya bantu?"
+  "context": [""]
  },
- null,
  {
   "tag": "salam",
   "patterns": "Assalamuailkum",
   "responses": "Waalaikumsalam warahmatullahi wabarakatuh.. Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai ... , apa yang bisa saya bantu?"
+ "context": [""]
  },
- null,
  {
   "tag": "thanks",
   "patterns": "Thanks",
@@ -39,6 +39,7 @@
  },
  {
   "responses": "Sama-sama :)!:) &lt;br&gt;Kunjungi kami: &lt;br&gt;&lt;a href=https:\/\/www.instagram.com\/jumli.gazali\/&gt;M. Jumli &lt;\/a&gt; untuk informasi lebih lanjut"
+ "context": [""]
  },
         
 
