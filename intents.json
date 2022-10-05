@@ -7,7 +7,7 @@
 },
 
 {"tag": "salam",
-"patterns": ["Assalamualailkum"],
+"patterns": ["Assalamualaikum","Assalamualaikum warahmatullahi"],
 "responses": ["Waalaikumsalam warahmatullahi wabarakatuh.. Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai ... dalam bahasa Indonesia, apa yang bisa saya bantu?"],
 "context": [""]
 },
