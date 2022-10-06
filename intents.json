@@ -25,6 +25,11 @@
 "context": [""]
 },
 
+{"tag": "what",
+  "patterns": ["Apa yang bisa kamu lakukan", "Kamu bisa apa", "bisa"],
+  "responses": ["Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai dalam bahasa Indonesia : <br>...<br>...<br> , <br>apa yang bisa saya bantu?"],
+  "context": [""]
+  },
 
 {"tag": "noanswer",
 "patterns": [],
