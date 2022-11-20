@@ -34,8 +34,8 @@
         "Makasih"
       ],
       "responses": [
-        "Senang bisa membantumu!:) <br>Kunjungi kami: <br><a href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut",
-        "Sama-sama :)!:) <br>Kunjungi kami: <br><a href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut"
+        "Senang bisa membantumu!:) <br>Kunjungi kami: <br><a "_blank" rel="noopener noreferrer" href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut",
+        "Sama-sama :)!:) <br>Kunjungi kami: <br><a target="_blank" rel="noopener noreferrer" href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut"
       ]
     },
     {
