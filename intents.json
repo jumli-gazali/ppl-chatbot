@@ -1,5 +1,5 @@
 {
-  "intens": [
+  "intents": [
     {
       "tag": "Daftar",
       "patterns": "Bagian pendaftaran ada di Gedung apa?",
