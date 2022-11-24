@@ -593,6 +593,22 @@
       ]
     },
     {
+      "tag": "Ruang Wakil Direktur",
+      "patterns": "Dimana ruangan wakil direktur pelayanan medik dan keperawatan?",
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
+    },
+    {
+      "tag": "Ruang Wakil Direktur ",
+      "patterns": "Dimana ruangan wakil direktur penunjang medik dan kependidikan?",
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
+    },
+    {
       "tag": "Ruang Sekretariat",
       "patterns": "Dimana ruang sekretariat?",
       "responses": [
