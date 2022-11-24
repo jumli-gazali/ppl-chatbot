@@ -208,338 +208,164 @@
         "Dimana mengambil hasil pemeriksaan radiologi?"
       ],
       "responses": [
-        "Ruang radiologi letaknya di Gedung B Lantai 1, Gedung B Lantai 1"
+        "Ruang radiologi letaknya di Gedung B Lantai 1",
+        "Gedung B Lantai 1"
       ]
     },
     {
-      "tag": "Radiologi",
-      "patterns": "Dimana ruangan radiologi?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Ruang radiologi ada dimana?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Lantai berapa ruang radiologi?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Dimana ruangan untuk rontgen?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Dimana ruangan untuk rontgen paru-paru?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Dimana ruang USG?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Dimana ruang MRI?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Apa nama ruangan untuk CT-Scan?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Dimana letak ruang radiologi?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "USG ada di ruangan apa?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Layanan MRI ada di ruangan aoa?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Radiologi",
-      "patterns": "Dimana mengambil hasil pemeriksaan radiologi?",
-      "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
-    },
-    {
       "tag": "Cathlab",
-      "patterns": "Dimana ruangan cathlab?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "Cathlab",
-      "patterns": "Dimana ruangan katerisasi jantung dan pembuluh darah?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "Cathlab",
-      "patterns": "Ruang cathlab ada dimana?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "Cathlab",
-      "patterns": "Dimana tempat ruang cathlab?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "Cathlab",
-      "patterns": "Dimana letak ruangan katerisasi jantung?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "Cathlab",
-      "patterns": "Dimana laboratorium katerisasi jantung dan angiografi?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "Cathlab",
-      "patterns": "Lantai berapa ruang cathlab?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "Cathlab",
-      "patterns": "Letak ruangan cathlab dimana?",
-      "responses": "Di Gedung B, Lantai 1"
+      "patterns": [
+        "Dimana ruangan cathlab?",
+        "Dimana ruangan katerisasi jantung dan pembuluh darah?",
+        "Ruang cathlab ada dimana?",
+        "Dimana tempat ruang cathlab?",
+        "Dimana letak ruangan katerisasi jantung?",
+        "Dimana laboratorium katerisasi jantung dan angiografi?",
+        "Lantai berapa ruang cathlab?",
+        "Letak ruangan cathlab dimana?"
+      ],
+      "responses": [
+        "Di Gedung B, Lantai 1",
+        "Lantai 1 Gedung B"
+      ]
     },
     {
       "tag": "ICU",
-      "patterns": "Dimana ruang rawat inap ICU?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICU",
-      "patterns": "Ruang rawat inap ICU dimana?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICU",
-      "patterns": "Dimana letak ruang rawat inap ICU?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICU",
-      "patterns": "Lokasi ruang rawat inap ICU dimana?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICU",
-      "patterns": "Ruangan ICU ada dimana?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICU",
-      "patterns": "Ruang ICU di lantai berapa?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICU",
-      "patterns": "Lantai berapa ruang ICU?",
-      "responses": "Di Gedung B, Lantai 1"
+      "patterns": [
+        "Dimana ruang rawat inap ICU?",
+        "Ruang rawat inap ICU dimana?",
+        "Dimana letak ruang rawat inap ICU?",
+        "Lokasi ruang rawat inap ICU dimana?",
+        "Ruangan ICU ada dimana?",
+        "Ruang ICU di lantai berapa?",
+        "Lantai berapa ruang ICU?"
+      ],
+      "responses": [
+        "Di Gedung B, Lantai 1",
+        "Lantai 1 Gedung B"
+      ]
     },
     {
       "tag": "ICCU",
-      "patterns": "Dimana ruang rawat inap ICCU?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICCU",
-      "patterns": "Ruang rawat inap ICCU dimana?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICCU",
-      "patterns": "Dimana letak ruang rawat inap ICCU?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICCU",
-      "patterns": "Lokasi ruang rawat inap ICCU dimana?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICCU",
-      "patterns": "Ruangan ICCU ada dimana?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICCU",
-      "patterns": "Ruang ICCU di lantai berapa?",
-      "responses": "Di Gedung B, Lantai 1"
-    },
-    {
-      "tag": "ICCU",
-      "patterns": "Lantai berapa ruang ICCU?",
-      "responses": "Di Gedung B, Lantai 1"
+      "patterns": [
+        "Dimana ruang rawat inap ICCU?",
+        "Ruang rawat inap ICCU dimana?",
+        "Dimana letak ruang rawat inap ICCU?",
+        "Lokasi ruang rawat inap ICCU dimana?",
+        "Ruangan ICCU ada dimana?",
+        "Ruang ICCU di lantai berapa?",
+        "Lantai berapa ruang ICCU?"
+      ],
+      "responses": [
+        "Di Gedung B, Lantai 1",
+        "Lantai 1 Gedung B"
+      ]
     },
     {
       "tag": "Patologi anatomi",
-      "patterns": "Dimana laboratorium patologi anatomi?",
-      "responses": "Laboratorium patologi anatomi letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Patologi anatomi",
-      "patterns": "Lab patologi anatomi dimana?",
-      "responses": "Laboratorium patologi anatomi letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Patologi anatomi",
-      "patterns": "Dimana lab PA?",
-      "responses": "Laboratorium patologi anatomi letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Patologi anatomi",
-      "patterns": "Dimana pemeriksaan patologi anatomi?",
-      "responses": "Laboratorium patologi anatomi letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Patologi anatomi",
-      "patterns": "Apa nama ruangan pemeriksaan pa?",
-      "responses": "Laboratorium patologi anatomi letaknya di Gedung B Lantai 1"
+      "patterns": [
+        "Dimana laboratorium patologi anatomi?",
+        "Lab patologi anatomi dimana?",
+        "Dimana lab PA?",
+        "Dimana pemeriksaan patologi anatomi?",
+        "Apa nama ruangan pemeriksaan pa?"
+      ],
+      "responses": [
+        "Laboratorium patologi anatomi letaknya di Gedung B Lantai 1",
+        "Di Gedung B, Lantai 1",
+        "Lantai 1 Gedung B"
+      ]
     },
     {
       "tag": "B2 Seruni",
-      "patterns": "Lantai berapa ruang seruni?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Dimana ruangan seruni?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Dimana ruang rawat inap pasien kecelakaan?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Dimana ruang rawat inap pasien pasca operasi?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Apa nama ruang rawat inap pasien kecelakaan?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Ada di lantai berapa ruang seruni?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Ruangan untuk pasien kecelakaan dimana?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Ruangan pasien pra operasi apa namanya?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Ruang seruni dimana?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
-    },
-    {
-      "tag": "B2 Seruni",
-      "patterns": "Ruangan rawat inap pasien pasca operasi dimana?",
-      "responses": "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2"
+      "patterns": [
+        "Lantai berapa ruang seruni?",
+        "Dimana ruangan seruni?",
+        "Dimana ruang rawat inap pasien kecelakaan?",
+        "Dimana ruang rawat inap pasien pasca operasi?",
+        "Apa nama ruang rawat inap pasien kecelakaan?",
+        "Ada di lantai berapa ruang seruni?",
+        "Ruangan untuk pasien kecelakaan dimana?",
+        "Ruangan pasien pra operasi apa namanya?",
+        "Ruang seruni dimana?",
+        "Ruangan rawat inap pasien pasca operasi dimana?"
+      ],
+      "responses": [
+        "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2",
+        "Ruang rawat inap B2 atau Seruni letaknya di Gedung B Lantai 2"
+      ]
     },
     {
       "tag": "IGD",
-      "patterns": "Dimana Gedung IGD?",
-      "responses": "Gedung Instalasi Gawat Darurat (IGD) terletak di sebelah barat Gedung A selurusan dengan gerbang masuk RSMY terdiri dari 3 lantai"
-    },
-    {
-      "tag": "IGD",
-      "patterns": "Dimana ruang IGD?",
-      "responses": "Gedung Instalasi Gawat Darurat (IGD) terletak di sebelah barat Gedung A selurusan dengan gerbang masuk RSMY terdiri dari 3 lantai"
-    },
-    {
-      "tag": "IGD",
-      "patterns": "Berapa lantai di Gedung IGD?",
-      "responses": "Gedung Instalasi Gawat Darurat (IGD) terletak di sebelah barat Gedung A selurusan dengan gerbang masuk RSMY terdiri dari 3 lantai"
+      "patterns": [
+        "Dimana Gedung IGD?",
+        "Dimana ruang IGD?",
+        "Berapa lantai di Gedung IGD?"
+      ],
+      "responses": [
+        "Gedung Instalasi Gawat Darurat (IGD) terletak di sebelah barat Gedung A selurusan dengan gerbang masuk RSMY terdiri dari 3 lantai",
+        "Gedung IGD terletak di sebelah barat Gedung A selurusan dengan gerbang masuk RSMY terdiri dari 3 lantai "
+      ]
     },
     {
       "tag": "Kamar operasi IGD",
-      "patterns": "Dimana kamar operasi untuk pasien IGD?",
-      "responses": "Di Gedung IGD Lantai 2"
-    },
-    {
-      "tag": "Kamar operasi IGD",
-      "patterns": "Kamar operasi pasien IGD di lantai berapa?",
-      "responses": "Di Gedung IGD Lantai 2"
-    },
-    {
-      "tag": "Kamar operasi IGD",
-      "patterns": "Dimana ruangan instalasi gawat darurat?",
-      "responses": "Di Gedung IGD Lantai 2"
+      "patterns": [
+        "Dimana kamar operasi untuk pasien IGD?",
+        "Kamar operasi pasien IGD di lantai berapa?",
+        "Dimana ruangan instalasi gawat darurat?"
+      ],
+      "responses": [
+        " Di Gedung IGD Lantai 2",
+        "Lantai 2 Gedung IGD"
+      ]
     },
     {
       "tag": "Ruang Observasi IGD",
-      "patterns": "Dimana ruang observasi pasien IGD?",
-      "responses": "Di Gedung IGD Lantai 3"
-    },
-    {
-      "tag": "Ruang Observasi IGD",
-      "patterns": "Dimana ruang pertemuan di Gedung IGD?",
-      "responses": "Di Gedung IGD Lantai 3"
-    },
-    {
-      "tag": "Ruang Covid-19",
-      "patterns": "Pasien rawat inap covid-19 di ruangan apa?",
-      "responses": "Di Gedung Fatmawati Lantai 1"
+      "patterns": [
+        "Dimana ruang observasi pasien IGD?",
+        "Dimana ruang pertemuan di Gedung IGD?"
+      ],
+      "responses": [
+        "Di Gedung IGD Lantai 3",
+        "Lantai 3 Gedung IGD"
+      ]
     },
     {
       "tag": "Ruang Covid-19",
-      "patterns": "Apa nama ruangan tempat pasien positif covid-19?",
-      "responses": "Di Gedung Fatmawati Lantai 1"
-    },
-    {
-      "tag": "Ruang Covid-19",
-      "patterns": "Dimana ruangan rawat inap covid-19?",
-      "responses": "Di Gedung Fatmawati Lantai 1"
-    },
-    {
-      "tag": "Ruang Covid-19",
-      "patterns": "Pasien positif covid-19 di rawat dimana?",
-      "responses": "Di Gedung Fatmawati Lantai 1"
-    },
-    {
-      "tag": "Ruang Covid-19",
-      "patterns": "Dimana letak ruangan pasien covid-19?",
-      "responses": "Di Gedung Fatmawati Lantai 1"
+      "patterns": [
+        "Pasien rawat inap covid-19 di ruangan apa?",
+        "Apa nama ruangan tempat pasien positif covid-19?",
+        "Dimana ruangan rawat inap covid-19?",
+        "Pasien positif covid-19 di rawat dimana?",
+        "Dimana letak ruangan pasien covid-19?"
+      ],
+      "responses": [
+        "Di Gedung Fatmawati Lantai 1",
+        "Lantai 1 Gedung Fatmawati "
+      ]
     },
     {
       "tag": "Pembayaran",
-      "patterns": "Dimana loket pembayaran?",
-      "responses": "Di Gedung A Lantai 1"
-    },
-    {
-      "tag": "Pembayaran",
-      "patterns": "Loket pembayaran ada dimana?",
-      "responses": "Di Gedung A Lantai 1"
-    },
-    {
-      "tag": "Pembayaran",
-      "patterns": "Dimana ruangan untuk mengurus administrasi pembayaran?",
-      "responses": "Di Gedung A Lantai 1"
+      "patterns": [
+        "Dimana loket pembayaran?",
+        "Loket pembayaran ada dimana?",
+        "Dimana ruangan untuk mengurus administrasi pembayaran?"
+      ],
+      "responses": [
+        "Di Gedung A Lantai 1",
+        "Lantai 1 Gedung A"
+      ]
     },
     {
       "tag": "Rekam Medik",
-      "patterns": "Dimana ruangan rekam medik?",
-      "responses": ["Di Gedung A Lantai 1","Lantai 1 Gedung A"]
+      "patterns": [
+        "Dimana ruangan rekam medik?",
+        "Rekam Medik Dimana?"
+      ],
+      "responses": [
+        "Di Gedung A Lantai 1",
+        "Lantai 1 Gedung A"
+      ]
     },
     {
       "tag": "Poli Bedah",
@@ -547,11 +373,11 @@
         "Dimana ruang poli bedah?",
         "Lantai berapa ruangan poli bedah?",
         "Ruang poli bedah ada dimana?"
-        ],
+      ],
       "responses": [
         "Poli Bedah terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-        ]
+      ]
     },
     {
       "tag": "Poli Orthopedi",
@@ -566,11 +392,11 @@
         "Dimana ruangan pemeriksaan penyakit kifosis?",
         "Dimana ruang pemeriksaan tbc pada tulang?",
         "Poli orthopedi ada dimana?"
-        ],
-     "responses": [
+      ],
+      "responses": [
         "Poli Orthopedi terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-        ]        
+      ]
     },
     {
       "tag": "Poli Saraf",
@@ -583,12 +409,12 @@
         "Dimana ruang pemeriksaan penyakit pada saraf?",
         "Dimana ruang pemeriksaan penyakit saraf terjepit?",
         "Ruang poli saraf dimana?"
-        ],
+      ],
       "responses": [
         "Poli Saraf terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-      ]      
-      },        
+      ]
+    },
     {
       "tag": "Poli Jantung",
       "patterns": [
@@ -604,7 +430,7 @@
       "responses": [
         "Poli jantung terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-    ]
+      ]
     },
     {
       "tag": "Poli Bedah Saraf",
@@ -612,11 +438,11 @@
         "Dimana ruang poli bedah saraf?",
         "Lantai berapa ruangan poli bedah saraf?",
         "Poli bedah saraf ada dimana?"
-        ],
+      ],
       "responses": [
         "Poli Bedah Saraf terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-        ]
+      ]
     },
     {
       "tag": "Poli Anak",
@@ -625,11 +451,11 @@
         "Lantai berapa poli anak?",
         "Ruang poli anak dimana?",
         "Dimana ruangan untuk pemeriksaan penyakit pada anak?"
-        ],
+      ],
       "responses": [
         "Poli Anak terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-        ]  
+      ]
     },
     {
       "tag": "Poli Gizi",
@@ -637,11 +463,11 @@
         "Dimana ruangan konsultasi gizi?",
         "Ruangan poli gizi untuk konsultasi ada dimana?",
         "Ruangan untuk konsultasi gizi dimana?"
-        ],
+      ],
       "responses": [
         "Poli Gizi terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-        ]
+      ]
     },
     {
       "tag": "Poli THT",
@@ -661,11 +487,11 @@
         "Dimana ruangan pemeriksaan gangguan telinga?",
         "Dimana ruangan pemeriksaan gangguan hidung?",
         "Dimana ruangan pemeriksaan gangguan tenggorokan?"
-        ],
+      ],
       "responses": [
         "Poli THT terletak di Gedung A Lantai1",
         "Gedung A Lantai 1"
-        ]
+      ]
     },
     {
       "tag": "Poli Onkologi",
@@ -673,11 +499,11 @@
         "Dimana ruangan bedah onkologi?",
         "Lantai berapa poli bedah onkologi?",
         "Poli onkologi dimana?"
-        ],
+      ],
       "responses": [
         "Poli Bedah Onkologi terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-        ]   
+      ]
     },
     {
       "tag": "Poli Bedah digestif",
@@ -686,12 +512,11 @@
         "Lantai berapa ruangan poli bedah digestif?",
         "Dimana ruangan pemeriksaan penyakit BAB berdarah?",
         "Ruang Poli bedah digestif ada dimana?"
-        ],
+      ],
       "responses": [
         "Poli bedah terletak di Gedung A Lantai 1",
         "Gedung A Lantai 1"
-        ]
-        
+      ]
     },
     {
       "tag": "Poli Mata",
@@ -702,11 +527,11 @@
         "Dimana ruangan pemeriksaan katarak?",
         "Dimana ruangan pemeriksaan mata minus?",
         "Dimana ruangan pemeriksaan gangguan mata?"
-        ],
+      ],
       "responses": [
         "Poli mata terletak di Di Gedung A Lantai 2",
         "Gedung A Lantai 2"
-        ]        
+      ]
     },
     {
       "tag": "Poli Kulit ",
@@ -717,11 +542,11 @@
         "Dimana ruangan pemeriksaan alergi pada kulit?",
         "Ruangan poli kulit dan kelamin ada dimana?",
         "Pemeriksaan penyakit kulit di ruangan apa?"
-        ],
+      ],
       "responses": [
         "Poli kulit dan kelamin terletak di Di Gedung A Lantai 2",
         "Gedung A Lantai 2"
-        ]
+      ]
     },
     {
       "tag": "Poli Urologi",
@@ -732,11 +557,11 @@
         "Dimana ruangan pemeriksaan penyakit prostat?",
         "Dimana ruangan pemeriksaan penyakit hematuria?",
         "Ruang poli urologi dimana?"
-        ],
+      ],
       "responses": [
         "Poli urologi terletak di Di Gedung A Lantai 2",
         "Gedung A Lantai 2"
-        ]        
+      ]
     },
     {
       "tag": "Poli Check Up",
@@ -745,42 +570,59 @@
         "Lantai berapa poli check up?",
         "Ruang check up dimana?",
         "Dimana ruangan medical check up?"
-        ],
+      ],
       "responses": [
         "Di Gedung A lantai 2",
         "Gedung A Lantai 2"
-        ]
-        
+      ]
     },
     {
       "tag": "Ruang Direktur",
       "patterns": "Dimana ruangan direktur?",
-      "responses": ["Di Gedung A Lantai 2", "Lantai 2 Gedung A"]
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
     },
     {
       "tag": "Ruang Wakil Direktur ",
       "patterns": "Dimana ruang wakil direktur umum dan keuangan?",
-      "responses": ["Di Gedung A Lantai 2", "Lantai 2 Gedung A"]
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
     },
     {
       "tag": "Ruang Wakil Direktur",
       "patterns": "Dimana ruangan wakil direktur pelayanan medik dan keperawatan?",
-      "responses": ["Di Gedung A Lantai 2", "Lantai 2 Gedung A"]
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
     },
     {
       "tag": "Ruang Wakil Direktur ",
       "patterns": "Dimana ruangan wakil direktur penunjang medik dan kependidikan?",
-      "responses": ["Di Gedung A Lantai 2", "Lantai 2 Gedung A"]
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
     },
     {
       "tag": "Ruang Sekretariat",
       "patterns": "Dimana ruang sekretariat?",
-      "responses": ["Di Gedung A Lantai 2", "Lantai 2 Gedung A"]
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
     },
     {
       "tag": "Gedung A",
       "patterns": "Dimana ruang pertemuan Gedung A?",
-      "responses": ["Di Gedung A Lantai 2", "Lantai 2 Gedung A"]
+      "responses": [
+        "Di Gedung A Lantai 2",
+        "Lantai 2 Gedung A"
+      ]
     }
   ]
 }
