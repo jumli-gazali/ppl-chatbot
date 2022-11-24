@@ -131,158 +131,82 @@
     {
       "tag": "Inap Anak",
       "patterns": [
-          “Gedung apa tempat rawat inap anak?”,
-          “Dimana tempat rawat inap anak?”,
-          “Ruangan rawat inap khusus anak apa namanya?”,
-          “Nama ruangan khusus rawat inap anak?”,
-          “Apa nama ruangan khusus anak?”,
-          “Dimana letak ruangan rawat inap khusus anak?”,
-          “Ruangan rawat inap anak-anak apa namanya?”
+        "Gedung apa tempat rawat inap anak?",
+        "Dimana tempat rawat inap anak?",
+        "Ruangan rawat inap khusus anak apa namanya?",
+        "Nama ruangan khusus rawat inap anak?",
+        "Apa nama ruangan khusus anak?",
+        "Dimana letak ruangan rawat inap khusus anak?",
+        "Ruangan rawat inap anak-anak apa namanya?"
       ],
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Dimana tempat rawat inap anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Ruangan rawat inap khusus anak apa namanya?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Nama ruangan khusus rawat inap anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Apa nama ruangan khusus anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Dimana letak ruangan rawat inap khusus anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Ruangan rawat inap anak-anak apa namanya?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
+      "responses": [
+        "Di Gedung Fatmawati, Lantai 2",
+        "Di Lantai 2"
+      ]
     },
     {
       "tag": "Donor darah",
-      "patterns": "Dimana tempat mengambil darah?",
-      "responses": "Donor"
-    },
-    {
-      "tag": "Donor darah",
-      "patterns": "Dimana ruang PMI ?",
-      "responses": "Donor"
-    },
-    {
-      "tag": "Donor darah",
-      "patterns": "Dimana tempat mendonor darah?",
-      "responses": "Donor"
-    },
-    {
-      "tag": "Donor darah",
-      "patterns": "Tempat mengambil darah lokasinya dimana?"
+      "patterns": [
+        "Dimana tempat mengambil kantong darah?",
+        "Dimana ruang PMI?",
+        "Dimana tempat mendonor darah?"
+      ],
+      "responses": [
+        " Di Gedung PMI",
+        "Gedung PMI"
+      ]
     },
     {
       "tag": "Laboraturium",
-      "patterns": "Dimana lokasi ruangan untuk cek darah?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Ruang labor dimana?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana laboratorium?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Ruangan untuk periksa golongan darah dimana?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana ruangan pemeriksaan hematologi klinik?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana ruangan untuk cek kolesterol?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana ruangan untuk cek gula darah?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana ruangan untuk cek asam urat?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana ruangan pemeriksaan trombosit darah?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana ruangan pemeriksaan leukosit darah?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana mengambil hasil pemeriksaan darah?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "Laboraturium",
-      "patterns": "Dimana mengambil hasil pemeriksaan gula darah?",
-      "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
-    },
-    {
-      "tag": "VIP A",
-      "patterns": "Dimana letak ruangan VIP A?",
-      "responses": "Di Gedung C, Lantai 1"
-    },
-    {
-      "tag": "VIP A",
-      "patterns": "Ruang VIP A ada di lantai berapa?",
-      "responses": "Di Gedung C, Lantai 1"
-    },
-    {
-      "tag": "VIP A",
-      "patterns": "Lantai berapa ruang VIP A?",
-      "responses": "Di Gedung C, Lantai 1"
+      "patterns": [
+        "Dimana lokasi ruangan untuk cek darah?",
+        "Ruang labor dimana?",
+        "Dimana laboratorium?",
+        "Ruangan untuk periksa golongan darah dimana?",
+        "Dimana ruangan pemeriksaan hematologi klinik?",
+        "Dimana ruangan untuk cek kolesterol?",
+        "Dimana ruangan untuk cek gula darah?",
+        "Dimana ruangan untuk cek asam urat?",
+        "Dimana ruangan pemeriksaan trombosit darah?",
+        "Dimana ruangan pemeriksaan leukosit darah?",
+        "Dimana mengambil hasil pemeriksaan darah?",
+        "Dimana mengambil hasil pemeriksaan gula darah?"
+      ],
+      "responses": [
+        "Laboratorium, yang letaknya di Gedung B Lantai 1",
+        "Laboratorium letaknya di Gedung B Lantai 1"
+      ]
     },
     {
       "tag": "VIP C",
-      "patterns": "Dimana letak ruangan VIP C?",
-      "responses": "Di Gedung VIP C"
-    },
-    {
-      "tag": "VIP C",
-      "patterns": "Ruang VIP C ada di lantai berapa?",
-      "responses": "Di Gedung VIP C"
-    },
-    {
-      "tag": "VIP C",
-      "patterns": "Lantai berapa ruang VIP C?",
-      "responses": "Di Gedung VIP C"
+      "patterns": [
+        "Dimana letak ruangan VIP C?",
+        "Lantai berapa ruang VIP C?",
+        "Ruang VIP C dimana?",
+        "Dimana ruangan VIP C?"
+      ],
+      "responses": [
+        "Di Gedung VIP C",
+        "Gedung VIP C"
+      ]
     },
     {
       "tag": "Radiologi",
-      "patterns": "Dimana tempat CT-Scan?",
+      "patterns": [
+        "Dimana tempat CT-Scan?",
+        "Dimana ruangan radiologi?",
+        "Ruang radiologi ada dimana?",
+        "Lantai berapa ruang radiologi?",
+        "Dimana ruangan untuk rontgen?",
+        "Dimana ruangan untuk rontgen paru-paru?",
+        "Dimana ruang USG?",
+        "Dimana ruang MRI?",
+        "Apa nama ruangan untuk CT-Scan?",
+        "Dimana letak ruang radiologi?",
+        "USG ada di ruangan apa?",
+        "Layanan MRI ada di ruangan apa?",
+        "Dimana mengambil hasil pemeriksaan radiologi?"
+      ],
       "responses": "Ruang radiologi, letaknya di Gedung B Lantai 1"
     },
     {
