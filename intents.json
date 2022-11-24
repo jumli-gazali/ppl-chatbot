@@ -585,7 +585,10 @@
     },
     {
       "tag": "Ruang Direktur",
-      "patterns": "Dimana ruangan direktur?",
+      "patterns": [
+        "Dimana ruangan direktur?",
+        "Ruang Direktur Mana?"
+      ],
       "responses": [
         "Di Gedung A Lantai 2",
         "Lantai 2 Gedung A"
@@ -593,7 +596,10 @@
     },
     {
       "tag": "Gedung A",
-      "patterns": "Dimana ruang pertemuan Gedung A?",
+      "patterns": [
+        "Dimana ruang pertemuan Gedung A?",
+        "Gedung A Dimana?"
+      ],
       "responses": [
         "Di Gedung A Lantai 2",
         "Lantai 2 Gedung A"
