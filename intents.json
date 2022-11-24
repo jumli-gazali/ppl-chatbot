@@ -3,6 +3,7 @@
     {
       "tag": "Daftar",
       "patterns": [
+        "Mau daftar dimana?",
         "Bagian pendaftaran ada di Gedung apa?",
         "Dimana tempat mendaftar?",
         "Dimana bagian administrasi?",
@@ -603,6 +604,16 @@
       "responses": [
         "Di Gedung A Lantai 2",
         "Lantai 2 Gedung A"
+      ]
+    },
+    {
+      "tag": "Unknown",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Mohon masukkan pesan dengan benar",
+        "mohom Ketikan pesan dengan benar"
       ]
     }
   ]
