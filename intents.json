@@ -142,36 +142,6 @@
       "responses": "Di Gedung Fatmawati, Lantai 2"
     },
     {
-      "tag": "Inap Anak",
-      "patterns": "Dimana tempat rawat inap anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Ruangan rawat inap khusus anak apa namanya?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Nama ruangan khusus rawat inap anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Apa nama ruangan khusus anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Dimana letak ruangan rawat inap khusus anak?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
-      "tag": "Inap Anak",
-      "patterns": "Ruangan rawat inap anak-anak apa namanya?",
-      "responses": "Di Gedung Fatmawati, Lantai 2"
-    },
-    {
       "tag": "Donor darah",
       "patterns": "Dimana tempat mengambil darah?",
       "responses": "Donor"
@@ -613,7 +583,7 @@
     {
       "tag": "Rekam Medik",
       "patterns": "Dimana ruangan rekam medik?",
-      "responses": "Di Gedung A Lantai 1"
+      "responses": ["Di Gedung A Lantai 1","Lantai 1 Gedung A"]
     },
     {
       "tag": "Poli Bedah",
