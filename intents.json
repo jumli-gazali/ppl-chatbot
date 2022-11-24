@@ -8,7 +8,10 @@
         "Dimana bagian administrasi?",
         "Ruang administrasi pendaftaran ada dimana?"
       ],
-      "responses": "Di Gedung A, Lantai 1"
+      "responses": [
+        "Di Gedung A, Lantai 1",
+        "Lantai 1 Gedung A"
+      ]
     },
     {
       "tag": "Persalinan",
@@ -21,7 +24,10 @@
         "Dimana tempat orang operasi melahirkan?",
         "Ruang operasi orang melahirkan dimana?"
       ],
-      "responses": "Di Gedung A, Lantai 1"
+      "responses": [
+        "Di Gedung A, Lantai 1",
+        "Lantai 1 Gedung A"
+      ]
     },
     {
       "tag": "Resep",
@@ -33,7 +39,8 @@
         "Dimana mengambill obat resep dokter?"
       ],
       "responses": [
-        "Di Gedung A Lantai 1, Gedung A Lantai 1"
+        "Di Gedung A Lantai 1",
+        "Gedung A Lantai 1"
       ]
     },
     {
@@ -43,7 +50,7 @@
         "Siapa yang membayar obat resep dokter?"
       ],
       "responses": [
-        " Bagi peserta bpjs obat akan dibayarkan oleh bpjs",
+        "Bagi peserta bpjs obat akan dibayarkan oleh bpjs",
         "Dibayarkan oleh bpjs bagi peserta bpjs"
       ]
     },
@@ -579,14 +586,6 @@
     {
       "tag": "Ruang Direktur",
       "patterns": "Dimana ruangan direktur?",
-      "responses": [
-        "Di Gedung A Lantai 2",
-        "Lantai 2 Gedung A"
-      ]
-    },
-    {
-      "tag": "Ruang Wakil Direktur ",
-      "patterns": "Dimana ruang wakil direktur umum dan keuangan?",
       "responses": [
         "Di Gedung A Lantai 2",
         "Lantai 2 Gedung A"
