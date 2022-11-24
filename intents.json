@@ -2,57 +2,26 @@
   "intents": [
     {
       "tag": "Daftar",
-      "patterns": "Bagian pendaftaran ada di Gedung apa?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Daftar",
-      "patterns": "Dimana tempat mendaftar?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Daftar",
-      "patterns": "Dimana bagian administrasi?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Daftar",
-      "patterns": "Ruang administrasi pendaftaran ada dimana?",
+      "patterns": [
+        "Bagian pendaftaran ada di Gedung apa?",
+        "Dimana tempat mendaftar?",
+        "Dimana bagian administrasi?",
+        "Ruang administrasi pendaftaran ada dimana?"
+      ],
       "responses": "Di Gedung A, Lantai 1"
     },
     {
       "tag": "Persalinan",
-      "patterns": "Dimana ruangan operasi melahirkan?",
+      "patterns": [
+        "Dimana ruangan operasi melahirkan?",
+        "Dimana ruang operasi orang melahirkan?",
+        "Ruang operasi melahirkan dimana?",
+        "Dimana orang melahirkan operasi?",
+        "Apa nama ruang operasi melahirkan?",
+        "Dimana tempat orang operasi melahirkan?",
+        "Ruang operasi orang melahirkan dimana?"
+      ],
       "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Persalinan",
-      "patterns": "Dimana ruang operasi orang melahirkan?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Persalinan",
-      "patterns": "Ruang operasi melahirkan dimana?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Persalinan",
-      "patterns": "Dimana orang melahirkan operasi?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Persalinan",
-      "patterns": "Dimana tempat orang operasi melahirkan?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Persalinan",
-      "patterns": "Apa nama ruang operasi melahirkan?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Persalinan",
-      "patterns": "Ruang operasi orang melahirkan dimana?"
     },
     {
       "tag": "Resep",
@@ -253,22 +222,22 @@
       "responses": "Di Gedung Fatmawati, Lantai 2"
     },
     {
-      "tag": "Dono darah",
+      "tag": "Donor darah",
       "patterns": "Dimana tempat mengambil darah?",
       "responses": "Donor"
     },
     {
-      "tag": "Dono darah",
+      "tag": "Donor darah",
       "patterns": "Dimana ruang PMI ?",
       "responses": "Donor"
     },
     {
-      "tag": "Dono darah",
+      "tag": "Donor darah",
       "patterns": "Dimana tempat mendonor darah?",
       "responses": "Donor"
     },
     {
-      "tag": "Dono darah",
+      "tag": "Donor darah",
       "patterns": "Tempat mengambil darah lokasinya dimana?"
     },
     {
@@ -327,6 +296,7 @@
       "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
     },
     {
+      "tag": "Laboraturium",
       "patterns": "Dimana mengambil hasil pemeriksaan gula darah?",
       "responses": "Laboratorium, yang letaknya di Gedung B Lantai 1"
     },
@@ -991,14 +961,17 @@
       "responses": "Poli bedah terletak do Gedung A Lantai 1"
     },
     {
+      "tag": "Poli Bedah digestif",
       "patterns": "Lantai berapa ruangan poli bedah digestif?",
       "responses": "Poli bedah terletak do Gedung A Lantai 1"
     },
     {
+      "tag": "Poli Bedah digestif",
       "patterns": "Dimana ruangan pemeriksaan penyakit BAB berdarah?",
       "responses": "Poli bedah terletak do Gedung A Lantai 1"
     },
     {
+      "tag": "Poli Bedah digestif",
       "patterns": "Ruang Poli bedah digestif ada dimana?",
       "responses": "Poli bedah terletak do Gedung A Lantai 1"
     },
