@@ -25,170 +25,120 @@
     },
     {
       "tag": "Resep",
-      "patterns": "Dimana tempat pengambilan resep dokter?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Resep",
-      "patterns": "Dimana apotek?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Resep",
-      "patterns": "Dimana tempat pengambilan obat?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Resep",
-      "patterns": "Apotek dimana?",
-      "responses": "Di Gedung A, Lantai 1"
-    },
-    {
-      "tag": "Resep",
-      "patterns": "Dimana mengambil obat resep dokter?",
-      "responses": "Di Gedung A, Lantai 1"
+      "patterns": [
+        "Dimana tempat pengambilan resep dokter?",
+        "Dimana apotek?",
+        "Dimana tempat pengambilan obat?",
+        "Apotek dimana?",
+        "Dimana mengambill obat resep dokter?"
+      ],
+      "responses": [
+        "Di Gedung A Lantai 1, Gedung A Lantai 1"
+      ]
     },
     {
       "tag": "BPJS",
-      "patterns": "Apakah obat di apotek dibayar oleh bpjs?",
-      "responses": "BPJS"
-    },
-    {
-      "tag": "BPJS",
-      "patterns": "Siapa yang membayar obat resep dokter?",
-      "responses": "BPJS"
-    },
-    {
-      "tag": "BPJS",
-      "patterns": "Obat apa saja yang dibayar oleh bpjs?",
-      "responses": "BPJS"
+      "patterns": [
+        "Apakah obat di apotek dibayar oleh bpjs?",
+        "Siapa yang membayar obat resep dokter?"
+      ],
+      "responses": [
+        " Bagi peserta bpjs obat akan dibayarkan oleh bpjs",
+        "Dibayarkan oleh bpjs bagi peserta bpjs"
+      ]
     },
     {
       "tag": "Anggrek",
-      "patterns": "Dimana ruangan anggrek?",
-      "responses": "Anggrek"
-    },
-    {
-      "tag": "Anggrek",
-      "patterns": "Lantai berapa ruang anggrek?",
-      "responses": "Anggrek"
-    },
-    {
-      "tag": "Anggrek",
-      "patterns": "Ruang anggrek dimana?",
-      "responses": "Anggrek"
-    },
-    {
-      "tag": "Teratai",
-      "patterns": "Dimana ruangan teratai?",
-      "responses": "Teratai"
+      "patterns": [
+        "Dimana ruangan anggrek?",
+        "Lantai berapa ruang anggrek?",
+        "Ruang anggrek dimana?",
+        "Lantai berapa ruang VIP A?",
+        "Ruang VIP A dimana?",
+        "Dimana ruangan VIP A?",
+        "Dimana letak ruangan anggrek?",
+        "Dimana letak ruangan VIP A?"
+      ],
+      "responses": [
+        " Di Gedung C Lantai 1",
+        "Lantai 1 Gedung C"
+      ]
     },
     {
       "tag": "Teratai",
-      "patterns": "Lantai berapa ruang teratai?",
-      "responses": "Teratai"
+      "patterns": [
+        "Dimana ruangan teratai?",
+        "Lantai berapa ruang teratai?",
+        "Ruang teratai dimana?",
+        "Dimana letak ruangan teratai?"
+      ],
+      "responses": [
+        "Teratai",
+        " Di Gedung Teratai, disebelah Selatan VIP A"
+      ]
     },
     {
-      "tag": "Teratai",
-      "patterns": "Ruang Teratai dimana?",
-      "responses": "Teratai"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Dimana ruangan C2?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Apan nama ruang rawat inap C2?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Ruang melati ada di Gedung mana?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Dimana ruangan melati?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Lantai berapa ruang melati?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Ruang melati ada dimana?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Dimana ruangan rawat inap pasien penyakit dalam?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Ruangan untuk pasien penyakit dalam",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Apa nama ruangan tempat pasien penyakit dalam?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
-    },
-    {
-      "tag": "C2 Seruni",
-      "patterns": "Ruang melati untuk pasien penyakit dalam ada di lantai berapa?",
-      "responses": "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1"
+      "tag": "C2 Seruni, Melati",
+      "patterns": [
+        "Dimana ruangan C2?",
+        "Apa nama ruang rawat inap C2?"
+      ],
+      "responses": [
+        "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1",
+        " Di Gedung Teratai"
+      ]
     },
     {
       "tag": "Mawar",
-      "patterns": "Dimana ruang mawar?",
-      "responses": "Mawar"
-    },
-    {
-      "tag": "Mawar",
-      "patterns": "Lantai berapa ruang mawar?",
-      "responses": "Mawar"
-    },
-    {
-      "tag": "Mawar",
-      "patterns": "Ruang mawar dimana?",
-      "responses": "Mawar"
-    },
-    {
-      "tag": "Kamboja",
-      "patterns": "Dimana ruangan kamboja?",
-      "responses": "Kamboja"
+      "patterns": [
+        "Dimana ruangan mawar?",
+        "Lantai berapa ruang mawar?",
+        "Ruang mawar dimana?",
+        "Dimana letak ruangan mawar?"
+      ],
+      "responses": [
+        " Di Gedung C Lantai 1",
+        "Lantai 1 Gedung C"
+      ]
     },
     {
       "tag": "Kamboja",
-      "patterns": "Lantai berapa ruang kamboja?",
-      "responses": "Kamboja"
-    },
-    {
-      "tag": "Kamboja",
-      "patterns": "Ruang kamboja dimana?",
-      "responses": "Kamboja"
-    },
-    {
-      "tag": "Kemuning",
-      "patterns": "Dimana ruangan kemuning?",
-      "responses": "Kemuning"
-    },
-    {
-      "tag": "Kemuning",
-      "patterns": "Lantai berapa ruang kemuning?"
+      "patterns": [
+        "Dimana ruangan kamboja?",
+        "Lantai berapa ruang kamboja?",
+        "Ruang kamboja dimana?",
+        "Dimana kamar ayat?",
+        "Dimana letak kamar mayat?"
+      ],
+      "responses": [
+        " Di Gedung kamboja",
+        "Gedung kamboja"
+      ]
     },
     {
       "tag": "Kemuning",
-      "patterns": "Ruang kemuning dimana?"
+      "patterns": [
+        "Dimana ruangan kemuning?",
+        "Lantai berapa ruang kemuning?",
+        "Ruang kemuning dimana?",
+        "Dimana letak ruang kemuning?"
+      ],
+      "responses": [
+        "Kemuning",
+        "Kemuninggg1"
+      ]
     },
     {
       "tag": "Inap Anak",
-      "patterns": "Gedung apa tempat rawat inap anak?",
+      "patterns": [
+          “Gedung apa tempat rawat inap anak?”,
+          “Dimana tempat rawat inap anak?”,
+          “Ruangan rawat inap khusus anak apa namanya?”,
+          “Nama ruangan khusus rawat inap anak?”,
+          “Apa nama ruangan khusus anak?”,
+          “Dimana letak ruangan rawat inap khusus anak?”,
+          “Ruangan rawat inap anak-anak apa namanya?”
+      ],
       "responses": "Di Gedung Fatmawati, Lantai 2"
     },
     {
