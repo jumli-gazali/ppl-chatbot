@@ -84,7 +84,7 @@ body {
   border-radius: 50%;
 }
 .msg-bubble {
-  max-width: 450px;
+  max-width: 450\px;
   padding: 15px;
   border-radius: 15px;
   background: var(--left-msg-bg);
