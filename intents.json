@@ -1,17 +1,86 @@
 {
   "intents": [
     {
+      "tag": "...",
+      "patterns": [
+        "",
+        " ",
+        ".",
+        ",",
+        "()"
+      ],
+      "responses": [
+        "Mohon masukkan pesan dengan benar",
+        "Mohon Ketikan pesan dengan benar"
+      ]
+    },
+    {
+      "tag": "sapaan",
+      "patterns": [
+        "Hi",
+        "Hy",
+        "Hai",
+        "Halo",
+        "Helo",
+        "Hmm"
+      ],
+      "responses": [
+        "Hai, apa yang bisa saya bantu? ChatBot ini didesain untuk menjawab beberapa pertanyaan mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia",
+        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia, apa yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terimakasih",
+        "Terimakasih banyak",
+        "Makasih"
+      ],
+      "responses": [
+        "Senang bisa membantumu!:) <br>Kunjungi kami: <br><a  href=https://www.instagram.com/jumli.gazali/ target=_blank rel=noopener noreferrer>M. Jumli </a> untuk informasi lebih lanjut",
+        "Sama-sama :)!:) <br>Kunjungi kami: <br><a target=_blank rel=noopener noreferrer href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut"
+      ]
+    },
+    {
+      "tag": "Apa",
+      "patterns": [
+        "Apa yang bisa kamu lakukan",
+        "Kamu bisa apa",
+        "bisa",
+        "Kamu siapa?",
+        "Aneh"
+      ],
+      "responses": [
+        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai dalam bahasa Indonesia Ruangan di Rumah Sakit M.Yunus , <br>apa yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "salam",
+      "patterns": [
+        "Assalamualaikum",
+        "Assalamualaikum warahmatullahi"
+      ],
+      "responses": [
+        "Waalaikumsalam warahmatullahi wabarakatuh.. Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia, apa yang bisa saya bantu?"
+      ]
+    },
+    {
       "tag": "Daftar",
       "patterns": [
         "Mau daftar dimana?",
         "Bagian pendaftaran ada di Gedung apa?",
         "Dimana tempat mendaftar?",
         "Dimana bagian administrasi?",
-        "Ruang administrasi pendaftaran ada dimana?"
+        "Ruang administrasi pendaftaran ada dimana?",
+        "Loket Pendaftaran dimana?",
+        "Dimana tempat ambil antrian?",
+        "Pertama kali ke Rumah Sakit harus kemana?"
       ],
       "responses": [
-        "Di Gedung A, Lantai 1",
-        "Lantai 1 Gedung A"
+        "Mendaftar Di Gedung A, Lantai 1",
+        "Mendaftar Lantai 1 Gedung A"
       ]
     },
     {
@@ -23,7 +92,12 @@
         "Dimana orang melahirkan operasi?",
         "Apa nama ruang operasi melahirkan?",
         "Dimana tempat orang operasi melahirkan?",
-        "Ruang operasi orang melahirkan dimana?"
+        "Ruang operasi orang melahirkan dimana?",
+        "Tempat ibu melahirkan",
+        "Tempat bersalin",
+        "Ruang bersalin dimana?",
+        "Tempat ruangan persalinan dimana?",
+        "Tempat operasi Caesar dimana"
       ],
       "responses": [
         "Di Gedung A, Lantai 1",
@@ -37,7 +111,10 @@
         "Dimana apotek?",
         "Dimana tempat pengambilan obat?",
         "Apotek dimana?",
-        "Dimana mengambill obat resep dokter?"
+        "Dimana mengambil obat resep dokter?",
+        "Tempat tebus obat dimana?",
+        "Mau ambil obat dimana",
+        "Mau dapat obat dimana"
       ],
       "responses": [
         "Di Gedung A Lantai 1",
@@ -48,7 +125,10 @@
       "tag": "BPJS",
       "patterns": [
         "Apakah obat di apotek dibayar oleh bpjs?",
-        "Siapa yang membayar obat resep dokter?"
+        "Bisa bayar pakai BPJS?",
+        "Obatnya bisa pakai BPJS?",
+        "Bisa pakai BPJS gak?",
+        "Apakah ditanggung BPJS?"
       ],
       "responses": [
         "Bagi peserta bpjs obat akan dibayarkan oleh bpjs",
@@ -119,7 +199,7 @@
         "Dimana letak kamar mayat?"
       ],
       "responses": [
-        " Di Gedung kamboja",
+        "Di Gedung kamboja",
         "Gedung kamboja"
       ]
     },
@@ -145,7 +225,9 @@
         "Nama ruangan khusus rawat inap anak?",
         "Apa nama ruangan khusus anak?",
         "Dimana letak ruangan rawat inap khusus anak?",
-        "Ruangan rawat inap anak-anak apa namanya?"
+        "Ruangan rawat inap anak-anak apa namanya?",
+        "Tempat menginap anak dimana?",
+        "Bisa Menginap?"
       ],
       "responses": [
         "Di Gedung Fatmawati, Lantai 2",
@@ -157,7 +239,11 @@
       "patterns": [
         "Dimana tempat mengambil kantong darah?",
         "Dimana ruang PMI?",
-        "Dimana tempat mendonor darah?"
+        "Dimana tempat mendonor darah?",
+        "Mau donor darah dimana?",
+        "Tempat donor darah dimana ya?",
+        "Bisa donor darah?",
+        "Mau ambil darah dimana?"
       ],
       "responses": [
         " Di Gedung PMI",
@@ -178,7 +264,12 @@
         "Dimana ruangan pemeriksaan trombosit darah?",
         "Dimana ruangan pemeriksaan leukosit darah?",
         "Dimana mengambil hasil pemeriksaan darah?",
-        "Dimana mengambil hasil pemeriksaan gula darah?"
+        "Dimana mengambil hasil pemeriksaan gula darah?",
+        "Mau cek darah dimana",
+        "Tempat cek darah dimana",
+        "Tempat cek golongan darah dimana",
+        "Tempat cek Kolesterol dimana",
+        "Ambil hasil cek darah dimana"
       ],
       "responses": [
         "Laboratorium, yang letaknya di Gedung B Lantai 1",
@@ -246,7 +337,10 @@
         "Lokasi ruang rawat inap ICU dimana?",
         "Ruangan ICU ada dimana?",
         "Ruang ICU di lantai berapa?",
-        "Lantai berapa ruang ICU?"
+        "Lantai berapa ruang ICU?",
+        "ICU dimana",
+        "ICU dimana ya",
+        "Pasien ICU dimana"
       ],
       "responses": [
         "Di Gedung B, Lantai 1",
@@ -262,7 +356,10 @@
         "Lokasi ruang rawat inap ICCU dimana?",
         "Ruangan ICCU ada dimana?",
         "Ruang ICCU di lantai berapa?",
-        "Lantai berapa ruang ICCU?"
+        "Lantai berapa ruang ICCU?",
+        "ICCU dimana",
+        "ICCU dimana ya",
+        "Pasien ICCU dimana"
       ],
       "responses": [
         "Di Gedung B, Lantai 1",
@@ -296,7 +393,9 @@
         "Ruangan untuk pasien kecelakaan dimana?",
         "Ruangan pasien pra operasi apa namanya?",
         "Ruang seruni dimana?",
-        "Ruangan rawat inap pasien pasca operasi dimana?"
+        "Ruangan rawat inap pasien pasca operasi dimana?",
+        "Yang Kecelakaan di ruang mana?",
+        "yang barusan tumburan di ruang mana "
       ],
       "responses": [
         "Ruang rawat inap B2 atau Seruni yang letaknya di Gedung B Lantai 2",
@@ -308,7 +407,10 @@
       "patterns": [
         "Dimana Gedung IGD?",
         "Dimana ruang IGD?",
-        "Berapa lantai di Gedung IGD?"
+        "Berapa lantai di Gedung IGD?",
+        "Ruang Gawat darurat dimana",
+        "ruang darurat dimana",
+        "tempat gawat darurat dimana"
       ],
       "responses": [
         "Gedung Instalasi Gawat Darurat (IGD) terletak di sebelah barat Gedung A selurusan dengan gerbang masuk RSMY terdiri dari 3 lantai",
@@ -345,7 +447,10 @@
         "Apa nama ruangan tempat pasien positif covid-19?",
         "Dimana ruangan rawat inap covid-19?",
         "Pasien positif covid-19 di rawat dimana?",
-        "Dimana letak ruangan pasien covid-19?"
+        "Dimana letak ruangan pasien covid-19?",
+        "Tempat pasien Covid dimana?",
+        "Yang covid dimana?",
+        "Kalau covid dimana?"
       ],
       "responses": [
         "Di Gedung Fatmawati Lantai 1",
@@ -357,7 +462,10 @@
       "patterns": [
         "Dimana loket pembayaran?",
         "Loket pembayaran ada dimana?",
-        "Dimana ruangan untuk mengurus administrasi pembayaran?"
+        "Dimana ruangan untuk mengurus administrasi pembayaran?",
+        "Cek tarif dimana",
+        "Cek biaya pengobatan dimana",
+        "Tempat bayar dimana?",
       ],
       "responses": [
         "Di Gedung A Lantai 1",
@@ -604,16 +712,6 @@
       "responses": [
         "Di Gedung A Lantai 2",
         "Lantai 2 Gedung A"
-      ]
-    },
-    {
-      "tag": "Unknown",
-      "patterns": [
-        ""
-      ],
-      "responses": [
-        "Mohon masukkan pesan dengan benar",
-        "mohom Ketikan pesan dengan benar"
       ]
     }
   ]
