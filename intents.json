@@ -1,17 +1,68 @@
 {
   "intents": [
     {
-      "tag": "...",
+      "tag": "",
       "patterns": [
         "",
         " ",
         ".",
         ",",
-        "()"
+        "( )",
+        "<",
+        ">",
+        "/",
+        "|",
+        "[ ]",
+        "+",
+        "-",
+        "_",
+        "*",
+        "%",
+        "^",
+        "&",
+        "$",
+        "#",
+        "@",
+        "!",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "0",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z"
       ],
       "responses": [
-        "Mohon masukkan pesan dengan benar",
-        "Mohon Ketikan pesan dengan benar"
+        "Saya tidak mengerti, Mohon masukkan pesan dengan benar",
+        "Saya tidak mengerti, Mohon Ketikan pesan dengan benar"
       ]
     },
     {
@@ -22,7 +73,12 @@
         "Hai",
         "Halo",
         "Helo",
-        "Hmm"
+        "Hmm",
+        "Oy",
+        "Hoy",
+        "Hoi",
+        "Tes",
+        "P"
       ],
       "responses": [
         "Hai, apa yang bisa saya bantu? ChatBot ini didesain untuk menjawab beberapa pertanyaan mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia",
@@ -53,14 +109,16 @@
         "Aneh"
       ],
       "responses": [
-        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai dalam bahasa Indonesia Ruangan di Rumah Sakit M.Yunus , <br>apa yang bisa saya bantu?"
+        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan di Rumah Sakit M.Yunus dalam bahasa Indonesia, <br>apa yang bisa saya bantu?"
       ]
     },
     {
       "tag": "salam",
       "patterns": [
         "Assalamualaikum",
-        "Assalamualaikum warahmatullahi"
+        "Assalamualaikum warahmatullahi",
+        "Assalamualaikum warahmatullahi wabarakatuh",
+        "Assalamualaikum wr wb"
       ],
       "responses": [
         "Waalaikumsalam warahmatullahi wabarakatuh.. Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia, apa yang bisa saya bantu?"
@@ -76,7 +134,10 @@
         "Ruang administrasi pendaftaran ada dimana?",
         "Loket Pendaftaran dimana?",
         "Dimana tempat ambil antrian?",
-        "Pertama kali ke Rumah Sakit harus kemana?"
+        "Pertama kali ke Rumah Sakit harus kemana?",
+        "apa bisa daftar online",
+        "format untuk daftar online",
+        "Mau mendaftarkan"
       ],
       "responses": [
         "Mendaftar Di Gedung A, Lantai 1",
@@ -97,7 +158,10 @@
         "Tempat bersalin",
         "Ruang bersalin dimana?",
         "Tempat ruangan persalinan dimana?",
-        "Tempat operasi Caesar dimana"
+        "Tempat operasi Caesar dimana",
+        "tempat lahiran dimana",
+        "ruang lahiran",
+        "tempat lahir"
       ],
       "responses": [
         "Di Gedung A, Lantai 1",
@@ -105,7 +169,7 @@
       ]
     },
     {
-      "tag": "Resep",
+      "tag": "Resep Obat, Apotek",
       "patterns": [
         "Dimana tempat pengambilan resep dokter?",
         "Dimana apotek?",
@@ -128,7 +192,9 @@
         "Bisa bayar pakai BPJS?",
         "Obatnya bisa pakai BPJS?",
         "Bisa pakai BPJS gak?",
-        "Apakah ditanggung BPJS?"
+        "Apakah ditanggung BPJS?",
+        "apa syarat pakai BPJS",
+        "Syarat pakai BPJS"
       ],
       "responses": [
         "Bagi peserta bpjs obat akan dibayarkan oleh bpjs",
@@ -166,10 +232,11 @@
       ]
     },
     {
-      "tag": "C2 Seruni, Melati",
+      "tag": "C2 Seruni, Melati. Inap",
       "patterns": [
         "Dimana ruangan C2?",
-        "Apa nama ruang rawat inap C2?"
+        "Apa nama ruang rawat inap C2?",
+        "Ruang menginap C2"
       ],
       "responses": [
         "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1",
@@ -227,7 +294,8 @@
         "Dimana letak ruangan rawat inap khusus anak?",
         "Ruangan rawat inap anak-anak apa namanya?",
         "Tempat menginap anak dimana?",
-        "Bisa Menginap?"
+        "Bisa Menginap?",
+        "Tempat anak dimana"
       ],
       "responses": [
         "Di Gedung Fatmawati, Lantai 2",
@@ -473,10 +541,14 @@
       ]
     },
     {
-      "tag": "Rekam Medik",
+      "tag": "Rekam Medis",
       "patterns": [
         "Dimana ruangan rekam medik?",
-        "Rekam Medik Dimana?"
+        "Rekam Medik Dimana?",
+        "Mau buat rekam medik dimana?",
+        "Dimana ruangan rekam medis?",
+        "Rekam Medis Dimana?",
+        "Mau buat rekam medis dimana?"
       ],
       "responses": [
         "Di Gedung A Lantai 1",
@@ -488,7 +560,8 @@
       "patterns": [
         "Dimana ruang poli bedah?",
         "Lantai berapa ruangan poli bedah?",
-        "Ruang poli bedah ada dimana?"
+        "Ruang poli bedah ada dimana?",
+        "Tempat operasi dimana"
       ],
       "responses": [
         "Poli Bedah terletak di Gedung A Lantai 1",
@@ -507,7 +580,10 @@
         "Dimana ruangan pemeriksaan penyakit skoliosis?",
         "Dimana ruangan pemeriksaan penyakit kifosis?",
         "Dimana ruang pemeriksaan tbc pada tulang?",
-        "Poli orthopedi ada dimana?"
+        "Poli orthopedi ada dimana?",
+        "Mau cek tulang kemana",
+        "Tempat mengobati tulang cedera dimana",
+        "perawatan tulang cedera dimana"
       ],
       "responses": [
         "Poli Orthopedi terletak di Gedung A Lantai 1",
@@ -524,7 +600,12 @@
         "Dimana ruang pemeriksaan nyeri pinggang hingga ke bokong?",
         "Dimana ruang pemeriksaan penyakit pada saraf?",
         "Dimana ruang pemeriksaan penyakit saraf terjepit?",
-        "Ruang poli saraf dimana?"
+        "Ruang poli saraf dimana?",
+        "Dimana letak ruangan poli syaraf?",
+        "Lantai berapa ruang poli syaraf?",
+        "Dimana ruang pemeriksaan penyakit pada syaraf?",
+        "Dimana ruang pemeriksaan penyakit syaraf terjepit?",
+        "Ruang poli syaraf dimana?"
       ],
       "responses": [
         "Poli Saraf terletak di Gedung A Lantai 1",
@@ -541,7 +622,9 @@
         "Dimana ruangan pemeriksaan penyakit jantung bawaan?",
         "Dimana ruangan pemeriksaan penyakit aritmia?",
         "Dimana ruangan pemeriksaan penyakit kardiomipati?",
-        "Poli jantung ruangannya dimana?"
+        "Poli jantung ruangannya dimana?",
+        "Jantung berdebar cek dimana",
+        "jantung deg deg cek dimana"
       ],
       "responses": [
         "Poli jantung terletak di Gedung A Lantai 1",
@@ -549,11 +632,14 @@
       ]
     },
     {
-      "tag": "Poli Bedah Saraf",
+      "tag": "Poli Bedah Syaraf",
       "patterns": [
         "Dimana ruang poli bedah saraf?",
         "Lantai berapa ruangan poli bedah saraf?",
-        "Poli bedah saraf ada dimana?"
+        "Poli bedah saraf ada dimana?",
+        "Dimana ruang poli bedah syaraf?",
+        "Lantai berapa ruangan poli bedah syaraf?",
+        "Poli bedah syaraf ada dimana?"
       ],
       "responses": [
         "Poli Bedah Saraf terletak di Gedung A Lantai 1",
@@ -578,7 +664,8 @@
       "patterns": [
         "Dimana ruangan konsultasi gizi?",
         "Ruangan poli gizi untuk konsultasi ada dimana?",
-        "Ruangan untuk konsultasi gizi dimana?"
+        "Ruangan untuk konsultasi gizi dimana?",
+        "cek gizi dimana?"
       ],
       "responses": [
         "Poli Gizi terletak di Gedung A Lantai 1",
@@ -602,7 +689,10 @@
         "Dimana ruang untuk konsultasi gangguan tidur yang disebabkan oleh saluran pernapasan?",
         "Dimana ruangan pemeriksaan gangguan telinga?",
         "Dimana ruangan pemeriksaan gangguan hidung?",
-        "Dimana ruangan pemeriksaan gangguan tenggorokan?"
+        "Dimana ruangan pemeriksaan gangguan tenggorokan?",
+        "Hidung sakit cek dimana?",
+        "Tenggorokan sakit cek dimana?",
+        "Telinga sakit cek dimana?"
       ],
       "responses": [
         "Poli THT terletak di Gedung A Lantai1",
@@ -614,7 +704,12 @@
       "patterns": [
         "Dimana ruangan bedah onkologi?",
         "Lantai berapa poli bedah onkologi?",
-        "Poli onkologi dimana?"
+        "Poli onkologi dimana?",
+        "Tempat cek kanker dimana?",
+        "Tempat cek kanker payudara dimana?",
+        "Tempat cek kanker otak dimana?",
+        "Tempat periksa kanker dimana",
+        "Tempat cek kanker dimana"
       ],
       "responses": [
         "Poli Bedah Onkologi terletak di Gedung A Lantai 1",
@@ -627,7 +722,8 @@
         "Dimana ruang poli bedah digestif?",
         "Lantai berapa ruangan poli bedah digestif?",
         "Dimana ruangan pemeriksaan penyakit BAB berdarah?",
-        "Ruang Poli bedah digestif ada dimana?"
+        "Ruang Poli bedah digestif ada dimana?",
+        "BAB berdarah cek dimana"
       ],
       "responses": [
         "Poli bedah terletak di Gedung A Lantai 1",
@@ -642,7 +738,14 @@
         "Ruangan poli mata dimana?",
         "Dimana ruangan pemeriksaan katarak?",
         "Dimana ruangan pemeriksaan mata minus?",
-        "Dimana ruangan pemeriksaan gangguan mata?"
+        "Dimana ruangan pemeriksaan mata silinder?",
+        "Dimana ruangan pemeriksaan gangguan mata?",
+        "Mau Periksa mata dimana",
+        "Tempat periksa mata dimana",
+        "Sakit mata periksa dimana",
+        "Dimana tempat Mata Sakit",
+        "Mata berlendir cek dimana",
+        "Mata bengkak cek dimana"
       ],
       "responses": [
         "Poli mata terletak di Di Gedung A Lantai 2",
@@ -657,7 +760,14 @@
         "Dimana ruangan pemeriksaan gangguan pada kulit?",
         "Dimana ruangan pemeriksaan alergi pada kulit?",
         "Ruangan poli kulit dan kelamin ada dimana?",
-        "Pemeriksaan penyakit kulit di ruangan apa?"
+        "Pemeriksaan penyakit kulit di ruangan apa?",
+        "Cek luka yang lama tidak sembuh dimana",
+        "Cek Rambut rontok dimana",
+        "kulit biru cek dimana?",
+        "kulit membiru cek dimana?",
+        "kulit merah cek dimana?",
+        "kulit memerah cek dimana?",
+        "Mau obatin jerawat dimana"
       ],
       "responses": [
         "Poli kulit dan kelamin terletak di Di Gedung A Lantai 2",
@@ -672,7 +782,8 @@
         "Dimana ruangan pemeriksaan gangguan pada saluran kemih?",
         "Dimana ruangan pemeriksaan penyakit prostat?",
         "Dimana ruangan pemeriksaan penyakit hematuria?",
-        "Ruang poli urologi dimana?"
+        "Ruang poli urologi dimana?",
+        "Cek batu ginjal dimana?"
       ],
       "responses": [
         "Poli urologi terletak di Di Gedung A Lantai 2",
@@ -685,7 +796,9 @@
         "Dimana tempat ruangan poli check up?",
         "Lantai berapa poli check up?",
         "Ruang check up dimana?",
-        "Dimana ruangan medical check up?"
+        "Dimana ruangan medical check up?",
+        "Tempat Check up dimana",
+        "Tempat Checkup"
       ],
       "responses": [
         "Di Gedung A lantai 2",
@@ -696,7 +809,9 @@
       "tag": "Ruang Direktur",
       "patterns": [
         "Dimana ruangan direktur?",
-        "Ruang Direktur Mana?"
+        "Ruang Direktur Mana?",
+        "Mau Ketemu direktur dimana ya",
+        "mau ngomong sama direktur"
       ],
       "responses": [
         "Di Gedung A Lantai 2",
@@ -707,7 +822,8 @@
       "tag": "Gedung A",
       "patterns": [
         "Dimana ruang pertemuan Gedung A?",
-        "Gedung A Dimana?"
+        "Gedung A Dimana?",
+        "Gedung A disebelah mana?"
       ],
       "responses": [
         "Di Gedung A Lantai 2",
