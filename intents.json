@@ -1,6 +1,66 @@
 {
   "intents": [
     {
+      "tag": "sapaan",
+      "patterns": [
+        "Hi",
+        "Hy",
+        "Hai",
+        "Halo",
+        "Helo",
+        "Hmm",
+        "Oy",
+        "Hoy",
+        "Hoi",
+        "Tes",
+        "Test",
+        "P"
+      ],
+      "responses": [
+        "Hai, apa yang bisa saya bantu? ChatBot ini didesain untuk menjawab beberapa pertanyaan mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia",
+        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia, apa yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terimakasih",
+        "Terimakasih banyak",
+        "Makasih"
+      ],
+      "responses": [
+        "Senang bisa membantumu!:) <br>Kunjungi kami: <br><a  href=https://www.instagram.com/jumli.gazali/ target=_blank rel=noopener noreferrer>M. Jumli </a> untuk informasi lebih lanjut",
+        "Sama-sama :)!:) <br>Kunjungi kami: <br><a target=_blank rel=noopener noreferrer href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut"
+      ]
+    },
+    {
+      "tag": "Apa",
+      "patterns": [
+        "Apa yang bisa kamu lakukan",
+        "Kamu bisa apa",
+        "bisa",
+        "Kamu siapa?",
+        "Aneh"
+      ],
+      "responses": [
+        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan di Rumah Sakit M.Yunus dalam bahasa Indonesia, <br>apa yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "salam",
+      "patterns": [
+        "Assalamualaikum",
+        "Assalamualaikum warahmatullahi",
+        "Assalamualaikum warahmatullahi wabarakatuh",
+        "Assalamualaikum wr wb"
+      ],
+      "responses": [
+        "Waalaikumsalam warahmatullahi wabarakatuh.. Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia, apa yang bisa saya bantu?"
+      ]
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -66,65 +126,6 @@
       ]
     },
     {
-      "tag": "sapaan",
-      "patterns": [
-        "Hi",
-        "Hy",
-        "Hai",
-        "Halo",
-        "Helo",
-        "Hmm",
-        "Oy",
-        "Hoy",
-        "Hoi",
-        "Tes",
-        "P"
-      ],
-      "responses": [
-        "Hai, apa yang bisa saya bantu? ChatBot ini didesain untuk menjawab beberapa pertanyaan mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia",
-        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia, apa yang bisa saya bantu?"
-      ]
-    },
-    {
-      "tag": "terimakasih",
-      "patterns": [
-        "Thanks",
-        "Thank you",
-        "Terimakasih",
-        "Terimakasih banyak",
-        "Makasih"
-      ],
-      "responses": [
-        "Senang bisa membantumu!:) <br>Kunjungi kami: <br><a  href=https://www.instagram.com/jumli.gazali/ target=_blank rel=noopener noreferrer>M. Jumli </a> untuk informasi lebih lanjut",
-        "Sama-sama :)!:) <br>Kunjungi kami: <br><a target=_blank rel=noopener noreferrer href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut"
-      ]
-    },
-    {
-      "tag": "Apa",
-      "patterns": [
-        "Apa yang bisa kamu lakukan",
-        "Kamu bisa apa",
-        "bisa",
-        "Kamu siapa?",
-        "Aneh"
-      ],
-      "responses": [
-        "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan di Rumah Sakit M.Yunus dalam bahasa Indonesia, <br>apa yang bisa saya bantu?"
-      ]
-    },
-    {
-      "tag": "salam",
-      "patterns": [
-        "Assalamualaikum",
-        "Assalamualaikum warahmatullahi",
-        "Assalamualaikum warahmatullahi wabarakatuh",
-        "Assalamualaikum wr wb"
-      ],
-      "responses": [
-        "Waalaikumsalam warahmatullahi wabarakatuh.. Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan Rumah Sakit M.Yunus dalam bahasa Indonesia, apa yang bisa saya bantu?"
-      ]
-    },
-    {
       "tag": "Daftar",
       "patterns": [
         "Mau daftar dimana?",
@@ -169,7 +170,7 @@
       ]
     },
     {
-      "tag": "Resep Obat, Apotek",
+      "tag": "Apotek",
       "patterns": [
         "Dimana tempat pengambilan resep dokter?",
         "Dimana apotek?",
@@ -192,9 +193,7 @@
         "Bisa bayar pakai BPJS?",
         "Obatnya bisa pakai BPJS?",
         "Bisa pakai BPJS gak?",
-        "Apakah ditanggung BPJS?",
-        "apa syarat pakai BPJS",
-        "Syarat pakai BPJS"
+        "Apakah ditanggung BPJS?"
       ],
       "responses": [
         "Bagi peserta bpjs obat akan dibayarkan oleh bpjs",
@@ -823,11 +822,715 @@
       "patterns": [
         "Dimana ruang pertemuan Gedung A?",
         "Gedung A Dimana?",
-        "Gedung A disebelah mana?"
+        "Gedung A disebelah mana?",
+        "saya ingin ke gedung A dimana ya?",
+        "Gedung A rsmy"
       ],
       "responses": [
         "Di Gedung A Lantai 2",
         "Lantai 2 Gedung A"
+      ]
+    },
+    {
+      "tag": "Denah",
+      "patterns": [
+        "Dimana saya bisa melihat denah rumah sakit ini?",
+        "Mau lihat denah dimana ya?",
+        "Denah rsmy",
+        "bagaimana denah rsmy",
+        "letak denah rsmy",
+        "tempat melihat denah rsmy",
+        "denah ruangan rsmy",
+        "rsmy memiliki denah apa tidak",
+        "denah bangunan rsmy",
+        "dimana saya bisa melihat denah bangunan rsmy",
+        "saya ingin melihat denah rsmy dimana ya",
+        "tunjukkan denah rsmy",
+        "dimana denah rumah sakit ini",
+        "dimana miniatur rsmy",
+        "letak miniatur rsmy",
+        "dimanakah denah yang menunjukkan ruangan di rumah sakit ini",
+        "dimana replika bangunan rsmy",
+        "denah rsmy bisa dilihat dimana ya",
+        "letak denah ruangan rsmy",
+        "miniatur rsmy terletak di bagian mana",
+        "replika bangunan rsmy ada dimana",
+        "Dimana saya bisa melihat denah rumah sakit ini?",
+        "Mau lihat denah dimana ya?",
+        "Denah rumah sakit",
+        "bagaimana denah rumah sakit",
+        "letak denah rumah sakit",
+        "tempat melihat denah rumah sakit",
+        "denah ruangan rumah sakit",
+        "rumah sakit memiliki denah apa tidak",
+        "denah bangunan rumah sakit",
+        "dimana saya bisa melihat denah bangunan rumah sakit",
+        "saya ingin melihat denah rumah sakit dimana ya",
+        "tunjukkan denah rumah sakit",
+        "dimana denah rumah sakit ini",
+        "dimana miniatur rumah sakit",
+        "letak miniatur rumah sakit",
+        "dimanakah denah yang menunjukkan ruangan di rumah sakit ini",
+        "dimana replika bangunan rumah sakit",
+        "denah rumah sakit bisa dilihat dimana ya",
+        "letak denah ruangan rumah sakit",
+        "miniatur rumah sakit terletak di bagian mana",
+        "replika bangunan rumah sakit ada dimana",
+        "bisa liat peta rsmy?",
+        "bisa lihat peta rumah sakit ini"
+      ],
+      "responses": [
+        "Di Gedung A Lantai 1 ada miniatur RSMY",
+        "Di depan pintu masuk gedung A ada miniatur RSMY",
+        "Silahkan kunjungi gedung A, miniatur rsmy ada di depan pintu masuk"
+      ]
+    },
+    {
+      "tag": "Syarat BPJS",
+      "patterns": [
+        "kalau pakai BPJS apa saja syaratnya?",
+        "Syarat pakai BPJS apa saja",
+        "Administrasi yang diperlukan untuk pasien BPJS",
+        "Persyaratan mendaftar pakai bpjs?",
+        "Persyaratan menjadi pasien bpjs?",
+        "Bagaimana menjadi pasien bpjs",
+        "Syarat pakai BPJS",
+        "apa syarat bpjs",
+        "saya ingin mendaftar sebagai pasien bpjs, syaratnya apa ya",
+        "syarat jadi pasien bpjs apa?",
+        "bagaimana cara mendaftar pasien bpjs",
+        "pendaftaran pasien bpjs apa saja syaratnya",
+        "apa saja syarat mendaftar sebagai pasien bpjs",
+        "mendaftar menggunakan bpjs bagaimana caranya",
+        "pendaftaran menggunakan bpjs",
+        "administrasi pendaftaran pasien bpjs apa saja",
+        "bagaimana prosedur persyaratan pasien bpjs"
+      ],
+      "responses": [
+        "Kartu BPJS asli beserta 1 lembar fotocopy, KTP, Kartu Keluarga, dan surat rujukan dari faskes 1",
+        "Persyaratannya adalah : Kartu BPJS asli beserta 1 lembar fotocopy, KTP, Kartu Keluarga, dan surat rujukan dari faskes 1"
+      ]
+    },
+    {
+      "tag": "Pendaftaran Online",
+      "patterns": [
+        "Apa bisa daftar secara online?",
+        "Besok besok kalau mau mendaftar secara online apakah bisa?",
+        "Apakah ada prosedur pendaftaran secara online?",
+        "Bisa ambil nomor antrian secara online gak?",
+        "Apa ada Formulir pendaftaran secara online?",
+        "Apa ada cara mengambil antrian online?",
+        "Rumah sakit ini bisa daftar online?",
+        "RSMY bisa mendaftar online?",
+        "Cara mendaftar online? ",
+        "Bagaimana cara mendaftar online",
+        "Bisakah saya mendaftar secara online?",
+        "Prosedur pendaftaran online bagaimana",
+        "Apakah bisa mendaftar poli secara online?",
+        "Administrasi online apa saja",
+        "Mau mendaftar pasien poli boleh online tidak?",
+        "Bagaimana mendaftar pasien online"
+      ],
+      "responses": [
+        "Silahkan mendaftar melalui aplikasi kami RSUD M Yunus Bengkulu di Google Playstore <br><a  href=https://rsudmyunus.id/pendaftaran-online/ target=_blank rel=noopener noreferrer>Unduh disini</a>",
+        "Bisa mendaftar melalui aplikasi RSUD M Yunus Bengkulu di Google Playstore <br><a  href=https://rsudmyunus.id/pendaftaran-online/ target=_blank rel=noopener noreferrer>Unduh disini</a>"
+      ]
+    },
+    {
+      "tag": "Stok Darah",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Farmasi",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Toilet",
+      "patterns": [
+        "WC dimana?",
+        "Kamar mandi dimana?",
+        "Tempat BAB dimana?",
+        "Tempat kencing dimana?",
+        "Tempat BAK dimana ya",
+        "Mau buang air kecil dimana?",
+        "Toilet disini arah mana?",
+        "Mau cuci muka dimana",
+        "Mau cuci tangan dimana",
+        "Tempat cuci tangan dimana",
+        "Tempat cuci muka dimana",
+        "Izin mau kebelakang dimana",
+        "Lagi kebelet, kamar mandi dimana?",
+        "Toilet umum rumah sakit ini dimana?",
+        "dimana wc",
+        "dimana toilet",
+        "dimana kamar mandi",
+        "dimana kamar kecil",
+        "mau ke kamar kecil dimana ya?",
+        "boleh numpang mandi?",
+        "Mau mandi bisa ga ya",
+        "Tandas ada dimana?"
+      ],
+      "responses": [
+        "Kamar mandi biasanya terletak di masing-masing ruangan, tetapi Anda bisa menggunakan toilet umum yang ada di samping apotek",
+        "Di setiap ruangan ada kamar mandi, tetapi Anda bisa menggunakan toilet umum yang ada di samping apotek"
+      ]
+    },
+    {
+      "tag": "Busui",
+      "patterns": [
+        "Ruangan untuk ibu menyusui disebelah mana?",
+        "Apa ada ruang khusus untuk  ibu menyusui?",
+        "dimana Ruangan tempat ibu ASI",
+        "Apa ada bilik khusus ibu Menyusui",
+        "Ruang Busui dimana?",
+        "Dimana ruangan ibu menyusui",
+        "adakah ruangan untuk ibu menyusui?",
+        "ibu menyusui ruangannya dimana ya?",
+        "ruangan khusus menyusui disebelah mana",
+        "area ibu menyusui dimana ya",
+        "apa nama ruangan khusus untuk ibu menyusui?"
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Area Merokok",
+      "patterns": [
+        "ruang khusus merokok dimana?",
+        "apa ada tempat khusus untuk merokok",
+        "apa boleh merokok disini?",
+        "Bolehkah membawa rokok di Rumah sakit?",
+        "area untuk merokok dimana",
+        "apakah ada ruangan khusus tempat merokok",
+        "dimana area merokok di rsmy",
+        "area bebas rokok dimana saja",
+        "Tempat merokok dimana",
+        "Tempat merokok ada dimana",
+        "Bilik khusus merokok ada dimana",
+        "ruangan khusus merokok dimana"
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Jadwal Dokter",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Gigi",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Penyakit Dalam",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Gastro",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Paru Anak",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Bedah Vaskuler",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Tindakan Enkoskopi",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Rehabilitasi Medik",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli DOTS",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli TB-MDR",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Endodonsi",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Onkologi dan Ginekologi",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli VCT",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Kebidanan",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Hematologi/Thalassemia",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Orthtodenti",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Prhostodenti",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Anestesi",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Onkologi Kebidanan",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Orthtodenti",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Orthtodenti",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Jadwal Poliklinik",
+      "patterns": [
+        "Jadwal poli bisa dilihat dimana",
+        "Apa jadwal poli hari ini?",
+        "Jadwal Poli Saraf",
+        "Jadwal Poli Syaraf",
+        "Jadwal Poli Saraf buka jam berapa",
+        "Jadwal Poli saraf buka hari apa",
+        "Jadwal Poli Syaraf buka jam berapa",
+        "Jadwal Poli syaraf buka hari apa",
+        "Jadwal PolI THT",
+        "Jadwal Poli THT buka jam berapa",
+        "Jadwal Poli THT buka hari apa",
+        "Jadwal Poli Telinga (THT)",
+        "Jadwal Poli Telinga (THT) buka jam berapa",
+        "Jadwal Poli Telinga (THT) buka hari apa",
+        "Jadwal Poli Hidung (THT) buka jam berapa",
+        "Jadwal Poli Hidung (THT) buka hari apa",
+        "Jadwal Poli Tenggorokan(THT) buka jam berapa",
+        "Jadwal Poli Tenggorokan (THT) buka hari apa",
+        "Jadwal Poli Urologi",
+        "Jadwal Poli Urologi buka jam berapa",
+        "Jadwal Poli Urologi buka hari apa",
+        "Jadwal Poli Kandung Kemih (Urologi)",
+        "Jadwal Poli Kandung Kemih (Urologi) buka jam berapa",
+        "Jadwal Poli Kandung Kemih (Urologi) buka hari apa",
+        "Jadwal Poli mata",
+        "Jadwal Poli mata buka jam berapa",
+        "Jadwal Poli mata buka hari apa",
+        "Jadwal Poli Bedah Onkologi",
+        "Jadwal Poli Bedah Onkologi Buka jam berapa?",
+        "Jadwal Poli Bedah Onkologi Buka hari apa?",
+        "Jadwal Poli Bedah Kanker (Onkologi) ",
+        "Jadwal Poli Bedah Kanker (Onkologi) Buka jam berapa?",
+        "Jadwal Poli Bedah Kanker (Onkologi) Buka hari apa?",
+        "Jadwal Poli Bedah Digestif",
+        "Jadwal Poli Bedah Digestif buka jam berapa",
+        "Jadwal Poli Bedah Digestif buka hari apa",
+        "Jadwal Poli Bedah Pencernaan (Digestif) buka jam berapa",
+        "Jadwal Poli Bedah Pencernaan (Digestif) buka hari apa",
+        "Jadwal Poli Jantung dan Pembuluh Darah",
+        "Jadwal Poli Jantung dan Pembuluh Darah buka jam berapa",
+        "Jadwal Poli Jantung dan Pembuluh Darah buka hari apa",
+        "Jadwal Poli Paru-Paru",
+        "Jadwal Poli Paru-Paru buka jam berapa?",
+        "Jadwal Poli Paru-Paru buka jam hari apa?",
+        "Jadwal Poli Bedah Saraf",
+        "Jadwal Poli Bedah Saraf buka jam berapa",
+        "Jadwal Poli Bedah Saraf buka hari apa",
+        "Jadwal Poli Bedah Syaraf",
+        "Jadwal Poli Bedah Syaraf buka jam berapa",
+        "Jadwal Poli Bedah Syaraf buka hari apa",
+        "Jadwal Poli Bedah",
+        "Jadwal Poli Bedah buka jam berapa?",
+        "Jadwal Poli Bedah buka hari apa?",
+        "Jadwal Poli Anak",
+        "Jadwal Poli Anak buka jam berapa?",
+        "Jadwal Poli Anak buka hari apa?",
+        "Jadwal Poli Orthopedi",
+        "Jadwal Poli Orthopedi buka jam berapa?",
+        "Jadwal Poli Orthopedi buka hari apa?",
+        "Jadwal Poli Penyakit Dalam buka jam berapa?",
+        "Jadwal Poli Penyakit Dalam buka hari apa?",
+        "Jadwal Poli Penyakit Kulit dan Kelamin buka jam berapa",
+        "Jadwal Poli Penyakit Kulit dan Kelamin buka hari apa",
+        "Jadwal Poli Gizi",
+        "Jadwal Poli Gigi buka jam berapa?",
+        "Jadwal Poli Gizi buka hari apa?",
+        "Jadwal Poli Gastro",
+        "Jadwal Poli Gastro buka jam berapa?",
+        "Jadwal Poli Gastro buka hari apa?",
+        "Jadwal Poli Paru Anak",
+        "Jadwal Poli Paru Anak buka jam berapa",
+        "Jadwal Poli Paru Anak buka hari apa",
+        "Jadwal Poli Bedah Vaskuler",
+        "Jadwal Poli Bedah Vaskuler buka jam berapa",
+        "Jadwal Poli Bedah Vaskuler buka hari apa",
+        "Jadwal Poli Bedah Pembuluh Darah",
+        "Jadwal Poli Bedah Pembuluh Darah buka jam berapa",
+        "Jadwal Poli Bedah Pembuluh Darah buka hari apa",
+        "Jadwal Poli Tindakan Endoskopi",
+        "Jadwal Poli Tindakan Endoskopi buka jam berapa",
+        "Jadwal Poli Tindakan Endoskopi buka hari apa",
+        "Jadwal Poli Rehabilitasi Medik",
+        "Jadwal Poli Rehabilitasi Medik buka jam berapa",
+        "Jadwal Poli Rehabilitasi Medik buka hari apa",
+        "Jadwal Poli Hematologi/Thalassemia",
+        "Jadwal Poli Hematologi/Thalassemia buka jam berapa?",
+        "Jadwal Poli Hematologi/Thalassemia buka hari apa",
+        "JadwaL Poli DOTS",
+        "JadwaL Poli DOTS buka jam berapa?",
+        "JadwaL Poli DOTS buka hari apa?",
+        "Jadwal Poli TB-MDR",
+        "Jadwal Poli TB-MDR buka jam berapa",
+        "Jadwal Poli TB-MDR buka hari apa",
+        "Jadwal Poli Check up",
+        "Jadwal Poli Check up buka jam berapa",
+        "Jadwal Poli Check up buka hari apa",
+        "Jadwal Poli Endodonsi",
+        "Jadwal Poli Endodonsi buka jam berapa",
+        "Jadwal Poli Endodonsi buka hari apa",
+        "Jadwal Poli Onkologi dan Ginekologi",
+        "Jadwal Poli Onkologi dan Ginekologi buka jam berapa",
+        "Jadwal Poli Onkologi dan Ginekologi buka hari apa",
+        "Jadwal Poli Kanker Rahim",
+        "Jadwal Poli Kanker Rahim buka jam berapa",
+        "Jadwal Poli Kanker Rahim buka hari apa",
+        "Jadwal Poli Kanker Ovarium",
+        "Jadwal Poli Kanker Ovarium buka jam berapa",
+        "Jadwal Poli Kanker Ovarium buka hari apa",
+        "Jadwal Poli Kanker Vagina",
+        "Jadwal Poli Kanker Vagina buka jam berapa",
+        "Jadwal Poli Kanker Vagina buka hari apa",
+        "Jadwal Poli VCT",
+        "Jadwal Poli VCT buka jam berapa",
+        "Jadwal Poli VCT buka hari apa",
+        "Jadwal Poli HIV",
+        "Jadwal Poli HIV buka jam berapa",
+        "Jadwal Poli HIV buka hari apa",
+        "Jadwal Poli Kebidanan",
+        "Jadwal Poli Kebidanan buka jam berapa",
+        "Jadwal Poli Kebidanan buka hari apa",
+        "Jadwal Poli Orthtodenti",
+        "Jadwal Poli Orthtodenti buka jam berapa",
+        "Jadwal Poli Orthtodenti buka hari apa",
+        "Jadwal Poli Prhostodenti",
+        "Jadwal Poli Prhostodenti buka jam berapa",
+        "Jadwal Poli Prhostodenti buka hari apa",
+        "Jadwal Poli Ganti Gigi",
+        "Jadwal Poli Ganti Gigi buka jam berapa",
+        "Jadwal Poli Ganti Gigi buka hari apa",
+        "Jadwal Poli Anestesi",
+        "Jadwal Poli Anestesi buka jam berapa",
+        "Jadwal Poli Anestesi buka hari apa",
+        "Jadwal Poli Bius (Anestesi)",
+        "Jadwal Poli Bius buka jam berapa",
+        "Jadwal Poli Bius buka hari apa",
+        "Jadwal Poli Onkologi Kebidanan",
+        "Jadwal Poli Onkologi Kebidanan jam berapa",
+        "Jadwal Poli Onkologi Kebidanan buka hari apa",
+        "Jadwal Poliklinik bisa dilihat dimana",
+        "Apa jadwal Poliklinik hari ini?",
+        "Jadwal Poliklinik Saraf",
+        "Jadwal Poliklinik Syaraf",
+        "Jadwal Poliklinik Saraf buka jam berapa",
+        "Jadwal Poliklinik saraf buka hari apa",
+        "Jadwal Poliklinik Syaraf buka jam berapa",
+        "Jadwal Poliklinik syaraf buka hari apa",
+        "Jadwal Poliklinik THT",
+        "Jadwal Poliklinik THT buka jam berapa",
+        "Jadwal Poliklinik THT buka hari apa",
+        "Jadwal Poliklinik Telinga (THT)",
+        "Jadwal Poliklinik Telinga (THT) buka jam berapa",
+        "Jadwal Poliklinik Telinga (THT) buka hari apa",
+        "Jadwal Poliklinik Hidung (THT) buka jam berapa",
+        "Jadwal Poliklinik Hidung (THT) buka hari apa",
+        "Jadwal Poliklinik Tenggorokan(THT) buka jam berapa",
+        "Jadwal Poliklinik Tenggorokan (THT) buka hari apa",
+        "Jadwal Poliklinik Urologi",
+        "Jadwal Poliklinik Urologi buka jam berapa",
+        "Jadwal Poliklinik Urologi buka hari apa",
+        "Jadwal Poliklinik Kandung Kemih (Urologi)",
+        "Jadwal Poliklinik Kandung Kemih (Urologi) buka jam berapa",
+        "Jadwal Poliklinik Kandung Kemih (Urologi) buka hari apa",
+        "Jadwal Poliklinik mata",
+        "Jadwal Poliklinik mata buka jam berapa",
+        "Jadwal Poliklinik mata buka hari apa",
+        "Jadwal Poliklinik Bedah Onkologi",
+        "Jadwal Poliklinik Bedah Onkologi Buka jam berapa?",
+        "Jadwal Poliklinik Bedah Onkologi Buka hari apa?",
+        "Jadwal Poliklinik Bedah Kanker (Onkologi) ",
+        "Jadwal Poliklinik Bedah Kanker (Onkologi) Buka jam berapa?",
+        "Jadwal Poliklinik Bedah Kanker (Onkologi) Buka hari apa?",
+        "Jadwal Poliklinik Bedah Digestif",
+        "Jadwal Poliklinik Bedah Digestif buka jam berapa",
+        "Jadwal Poliklinik Bedah Digestif buka hari apa",
+        "Jadwal Poliklinik Bedah Pencernaan (Digestif) buka jam berapa",
+        "Jadwal Poliklinik Bedah Pencernaan (Digestif) buka hari apa",
+        "Jadwal Poliklinik Jantung dan Pembuluh Darah",
+        "Jadwal Poliklinik Jantung dan Pembuluh Darah buka jam berapa",
+        "Jadwal Poliklinik Jantung dan Pembuluh Darah buka hari apa",
+        "Jadwal Poliklinik Paru-Paru",
+        "Jadwal Poliklinik Paru-Paru buka jam berapa?",
+        "Jadwal Poliklinik Paru-Paru buka jam hari apa?",
+        "Jadwal Poliklinik Bedah Saraf",
+        "Jadwal Poliklinik Bedah Saraf buka jam berapa",
+        "Jadwal Poliklinik Bedah Saraf buka hari apa",
+        "Jadwal Poliklinik Bedah Syaraf",
+        "Jadwal Poliklinik Bedah Syaraf buka jam berapa",
+        "Jadwal Poliklinik Bedah Syaraf buka hari apa",
+        "Jadwal Poliklinik Bedah",
+        "Jadwal Poliklinik Bedah buka jam berapa?",
+        "Jadwal Poliklinik Bedah buka hari apa?",
+        "Jadwal Poliklinik Anak",
+        "Jadwal Poliklinik Anak buka jam berapa?",
+        "Jadwal Poliklinik Anak buka hari apa?",
+        "Jadwal Poliklinik Orthopedi",
+        "Jadwal Poliklinik Orthopedi buka jam berapa?",
+        "Jadwal Poliklinik Orthopedi buka hari apa?",
+        "Jadwal Poliklinik Penyakit Dalam buka jam berapa?",
+        "Jadwal Poliklinik Penyakit Dalam buka hari apa?",
+        "Jadwal Poliklinik Penyakit Kulit dan Kelamin buka jam berapa",
+        "Jadwal Poliklinik Penyakit Kulit dan Kelamin buka hari apa",
+        "Jadwal Poliklinik Gizi",
+        "Jadwal Poliklinik Gigi buka jam berapa?",
+        "Jadwal Poliklinik Gizi buka hari apa?",
+        "Jadwal Poliklinik Gastro",
+        "Jadwal Poliklinik Gastro buka jam berapa?",
+        "Jadwal Poliklinik Gastro buka hari apa?",
+        "Jadwal Poliklinik Paru Anak",
+        "Jadwal Poliklinik Paru Anak buka jam berapa",
+        "Jadwal Poliklinik Paru Anak buka hari apa",
+        "Jadwal Poliklinik Bedah Vaskuler",
+        "Jadwal Poliklinik Bedah Vaskuler buka jam berapa",
+        "Jadwal Poliklinik Bedah Vaskuler buka hari apa",
+        "Jadwal Poliklinik Bedah Pembuluh Darah",
+        "Jadwal Poliklinik Bedah Pembuluh Darah buka jam berapa",
+        "Jadwal Poliklinik Bedah Pembuluh Darah buka hari apa",
+        "Jadwal Poliklinik Tindakan Endoskopi",
+        "Jadwal Poliklinik Tindakan Endoskopi buka jam berapa",
+        "Jadwal Poliklinik Tindakan Endoskopi buka hari apa",
+        "Jadwal Poliklinik Rehabilitasi Medik",
+        "Jadwal Poliklinik Rehabilitasi Medik buka jam berapa",
+        "Jadwal Poliklinik Rehabilitasi Medik buka hari apa",
+        "Jadwal Poliklinik Hematologi/Thalassemia",
+        "Jadwal Poliklinik Hematologi/Thalassemia buka jam berapa?",
+        "Jadwal Poliklinik Hematologi/Thalassemia buka hari apa",
+        "JadwaL Poliklinik DOTS",
+        "JadwaL Poliklinik DOTS buka jam berapa?",
+        "JadwaL Poliklinik DOTS buka hari apa?",
+        "Jadwal Poliklinik TB-MDR",
+        "Jadwal Poliklinik TB-MDR buka jam berapa",
+        "Jadwal Poliklinik TB-MDR buka hari apa",
+        "Jadwal Poliklinik Check up",
+        "Jadwal Poliklinik Check up buka jam berapa",
+        "Jadwal Poliklinik Check up buka hari apa",
+        "Jadwal Poliklinik Endodonsi",
+        "Jadwal Poliklinik Endodonsi buka jam berapa",
+        "Jadwal Poliklinik Endodonsi buka hari apa",
+        "Jadwal Poliklinik Onkologi dan Ginekologi",
+        "Jadwal Poliklinik Onkologi dan Ginekologi buka jam berapa",
+        "Jadwal Poliklinik Onkologi dan Ginekologi buka hari apa",
+        "Jadwal Poliklinik Kanker Rahim",
+        "Jadwal Poliklinik Kanker Rahim buka jam berapa",
+        "Jadwal Poliklinik Kanker Rahim buka hari apa",
+        "Jadwal Poliklinik Kanker Ovarium",
+        "Jadwal Poliklinik Kanker Ovarium buka jam berapa",
+        "Jadwal Poliklinik Kanker Ovarium buka hari apa",
+        "Jadwal Poliklinik Kanker Vagina",
+        "Jadwal Poliklinik Kanker Vagina buka jam berapa",
+        "Jadwal Poliklinik Kanker Vagina buka hari apa",
+        "Jadwal Poliklinik VCT",
+        "Jadwal Poliklinik VCT buka jam berapa",
+        "Jadwal Poliklinik VCT buka hari apa",
+        "Jadwal Poliklinik HIV",
+        "Jadwal Poliklinik HIV buka jam berapa",
+        "Jadwal Poliklinik HIV buka hari apa",
+        "Jadwal Poliklinik Kebidanan",
+        "Jadwal Poliklinik Kebidanan buka jam berapa",
+        "Jadwal Poliklinik Kebidanan buka hari apa",
+        "Jadwal Poliklinik Orthtodenti",
+        "Jadwal Poliklinik Orthtodenti buka jam berapa",
+        "Jadwal Poliklinik Orthtodenti buka hari apa",
+        "Jadwal Poliklinik Prhostodenti",
+        "Jadwal Poliklinik Prhostodenti buka jam berapa",
+        "Jadwal Poliklinik Prhostodenti buka hari apa",
+        "Jadwal Poliklinik Ganti Gigi",
+        "Jadwal Poliklinik Ganti Gigi buka jam berapa",
+        "Jadwal Poliklinik Ganti Gigi buka hari apa",
+        "Jadwal Poliklinik Anestesi",
+        "Jadwal Poliklinik Anestesi buka jam berapa",
+        "Jadwal Poliklinik Anestesi buka hari apa",
+        "Jadwal Poliklinik Bius (Anestesi)",
+        "Jadwal Poliklinik Bius buka jam berapa",
+        "Jadwal Poliklinik Bius buka hari apa",
+        "Jadwal Poliklinik Onkologi Kebidanan",
+        "Jadwal Poliklinik Onkologi Kebidanan jam berapa",
+        "Jadwal Poliklinik Onkologi Kebidanan buka hari apa"
+      ],
+      "responses": [
+        "Untuk jadwal poliklinik silahkan kunjungi instagram kami <br><a  href=https://www.instagram.com/inforsmy_bengkulu/ target=_blank rel=noopener noreferrer>@inforsmy_bengkulu</a> ",
+        "Kunjungi instagram kami <br><a  href=https://www.instagram.com/inforsmy_bengkulu/ target=_blank rel=noopener noreferrer>@inforsmy_bengkulu</a> Untuk melihat jadwal poliklinik "
+      ]
+    },
+    {
+      "tag": "Jadwal Poli Tutup",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
       ]
     }
   ]
