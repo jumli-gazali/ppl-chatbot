@@ -1131,8 +1131,6 @@
         "nama ruangan untuk pemeriksaan organ dalam",
         "dimana ruangan poli penyakit dalam",
         "Gangguan organ dalam cek dimana",
-        "Sesak nafas cek dimana",
-        "Nafas sesak periksa dimana",
         "Flu periksa dimana",
         "Batuk periksa dimana",
         "lantai berapa poli penyakit dalam",
@@ -1148,33 +1146,46 @@
       ]
     },
     {
-      "tag": "Poli Gastro",
+      "tag": "Poli Paru - paru",
       "patterns": [
-        "  "
+        "Periksa paru - paru dimana",
+        "Periksa paru2 dimana",
+        "Tempat yang melayani sakit paru-paru dimana",
+        "Gangguan paru-paru cek dimana",
+        "cek paru-paru basah dimana",
+        "Sesak Nafas cek dimana",
+        "Dada terasa gatal cek dimana",
+        "Batuk2 cek kemana",
+        "Nafas sesak periksa dimana",
+        "Poli paru-paru dimana?",
+        "Ruangan poli paru di sebelah mana ya",
+        "pemeriksaan penyakit paru-paru dimana?",
+        "sakit batuk yang berkepanjangan, ke poli apa",
+        "konsultasi penyakit sesak napas sebaiknya ke poli apa",
+        "penyakit gagal napas sebaiknya ke poli apa",
+        "lantai berapa ruangan poli paru",
+        "ruangan poli paru dimana",
+        "gedung apa poli paru",
+        "poli paru terletak di gedung mana",
+        "pemeriksaan penyakit pada sistem pernapasan dimana",
+        "apa nama poli pemeriksan gangguan pada sistem pernapasan",
+        "mengobati mengi sebaiknya kemana",
+        "gangguan sistem pernapasan konsultasi kemana?",
+        "penyakit pneumonia sebaiknya konsultasi kemana",
+        "penyakit tuberkulosis paru konsultasi kemana",
+        "penyakit tbc paru sebaiknya berobat kemana",
+        "penyakit asma konsultasi kemana",
+        "Asma kambuh cek kemana",
+        "Nafas berat cek dimana",
+        "Nafas tersendat cek dimana",
+        "Susah Nafas cek dimana",
+        "pemeriksaan gangguan organ paru",
+        "penyakit bronkitis konsultasi kemana",
+        "dimana ruangan pulmonolog"
       ],
       "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Paru Anak",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Bedah Vaskuler",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
+        "Poli Paru terletak di Gedung IGD Lantai 1",
+        "Poli Paru - paru terletak di Gedung IGD Lantai 1"
       ]
     },
     {
@@ -1198,37 +1209,7 @@
       ]
     },
     {
-      "tag": "Poli DOTS",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli TB-MDR",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
       "tag": "Poli Endodonsi",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Onkologi dan Ginekologi",
       "patterns": [
         "  "
       ],
@@ -1259,26 +1240,6 @@
     },
     {
       "tag": "Poli Hematologi / Thalassemia",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Anestesi",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Onkologi Kebidanan",
       "patterns": [
         "  "
       ],
