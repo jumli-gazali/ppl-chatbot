@@ -77,7 +77,7 @@ body {
   width: 50px;
   height: 50px;
   margin-right: 10px;
-  background: #ddd;
+  background: rgb(247, 244, 244);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
