@@ -938,26 +938,6 @@
       ]
     },
     {
-      "tag": "Stok Darah",
-      "patterns": [
-        ""
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Farmasi",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
       "tag": "Toilet",
       "patterns": [
         "WC dimana?",
@@ -989,7 +969,7 @@
       ]
     },
     {
-      "tag": "Busui",
+      "tag": "Ruang Sehat",
       "patterns": [
         "Ruangan untuk ibu menyusui disebelah mana?",
         "Apa ada ruang khusus untuk  ibu menyusui?",
@@ -1001,7 +981,14 @@
         "ibu menyusui ruangannya dimana ya?",
         "ruangan khusus menyusui disebelah mana",
         "area ibu menyusui dimana ya",
-        "apa nama ruangan khusus untuk ibu menyusui?"
+        "apa nama ruangan khusus untuk ibu menyusui?",
+        "Ruangan Sehat untuk ibu menyusui disebelah mana?",
+        "Apa ada ruang sehat untuk ibu menyusui?",
+        "dimana Ruang sehat tempat ibu ASI",
+        "Ruang sehat untuk Busui dimana?",
+        "Dimana ruang sehat untuk ibu menyusui",
+        "adakah ruang sehat untuk ibu menyusui?",
+        "ruang sehat khusus menyusui disebelah mana"
       ],
       "responses": [
         "",
@@ -1030,9 +1017,43 @@
       ]
     },
     {
-      "tag": "Jadwal Dokter",
+      "tag": "Poli Gigi",
       "patterns": [
-        "  "
+        "Mau periksa gigi dimana",
+        "Tempat cek gigi dimana",
+        "Cek gigi berlubang dimana",
+        "Bisa cek gigi?",
+        "Periksa gigi arah mana",
+        "Cek gigi arah mana",
+        "Tempat mengobati gigi sakit",
+        "Lantai berapa untuk cek gigi",
+        "Lantai berapa untuk periksa gigi",
+        "Dimana ruang pemeriksaan gigi",
+        "Dimana Poli gigi",
+        "Saya ingin periksa gigi, dimana ya?",
+        "sakit gigi sebaiknya periksa kemana?",
+        "letak ruangan poli gigi?",
+        "kalo mau periksa gigi dimana ya?",
+        "kalau mau periksa gigi dimana ya?",
+        "dimana ruangan poli gigi",
+        "pemeriksaan gigi di gedung apa",
+        "lantai berapa poli gigi rsmy",
+        "pembersihan karang gigi di ruangan mana",
+        "Tempat scalling gigi dimana",
+        "Tambal gigi dimana",
+        "Mau cabut gigi dimana",
+        "Tempat cabut gigi dimana",
+        "penambalan gigi di ruangan mana",
+        "Cek gigi berlubang dimana",
+        "Periksa lubang gigi dimana",
+        "Pasang gigi palsu dimana",
+        "Mau buat gigi palsu dimana",
+        "ingin mencabut gigi sebaiknya mengunjungi poli apa?",
+        "pemeriksaan penyakit mulut dimana",
+        "pemeriksaan gusi bengkak dimana",
+        "tambal gigi di ruangan mana",
+        "Ruang tambal gigi dimana",
+        "Cabut gigi bungsu dimana"
       ],
       "responses": [
         "",
@@ -1040,9 +1061,63 @@
       ]
     },
     {
-      "tag": "Poli Gigi",
+      "tag": "Poli Orthtodenti",
       "patterns": [
-        "  "
+        "Poli Orthtodenti dimana",
+        "Ruangan poli Orthtodenti ada dimana",
+        "Gigi berantakan periksa dimana",
+        "Pasang kawat gigi dimana",
+        "Pasang behel dimana",
+        "Mau pasang kawat gigi dimana",
+        "Mau pasang behel dimana",
+        "Mau lepas behel dimana?",
+        "Mau lepas kawat gigi dimana",
+        "Mau ganti behel dimana?",
+        "Mau ganti kawat gigi dimana",
+        "Mau konsultasi behel dimana?",
+        "Mau konsultasi kawat gigi dimana",
+        "Kalau ingin pasang kawat gigi dimana",
+        "Kalau ingin pasang behel dimana",
+        "Kalau ingin lepas behel dimana?",
+        "Kalau ingin lepas kawat gigi dimana",
+        "Kalau ingin ganti behel dimana?",
+        "Kalau ingin ganti kawat gigi dimana",
+        "Kalau ingin konsultasi behel dimana?",
+        "Kalau ingin konsultasi kawat gigi dimana",
+        "pemasangan behel dimana",
+        "pemasangan kawat gigi dimana",
+        "untuk memeriksa gigi yang kurang rapi sebaiknya ke poli apa",
+        "saya ingin memasang kawat gigi dimana ya",
+        "dimana saya bisa memasang behel untuk gigi yang berantakan",
+        "mau ganti karet behel dimana ya?",
+        "mau pasang karet behel yang baru sebaiknya ke poli apa",
+        "Memperbaiki gigi tonggos dimana",
+        "Memperbaiki gigi Berantakan dimana"
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Prhostodenti",
+      "patterns": [
+        "Gusi bengkak kemana?",
+        "Gusi Linu Kemana",
+        "Gusi Nyeri kemana",
+        "pemeriksaan gusi bengkak dimana",
+        "pengobatan gusi berdarah dimana",
+        "dimana pemeriksaan gusi berdarah?",
+        "dimana pemeriksaan gusi yang bengkak",
+        "permasalahan pada tulang gigi sebaiknya konsultasi ke poli apa ya",
+        "dimana ruangan poli prhostodenti",
+        "lantai berapa ruangan prhostodenti",
+        "pengobatan untuk gigi yang patah",
+        "patah gigi sebaiknya konsultasi ke dokter apa",
+        "pembuatan gigi palsu sebaiknya ke dokter apa",
+        "pemasangan implan gigi sebaiknya ke poli apa",
+        "gigi terlepas yang rusak parah sebaiknya ke poli apa?",
+        "perawatan prostesis gigi sebaiknya ke poli apa?"
       ],
       "responses": [
         "",
@@ -1052,7 +1127,20 @@
     {
       "tag": "Poli Penyakit Dalam",
       "patterns": [
-        "  "
+        "poli penyakit dalam lantai berapa",
+        "nama ruangan untuk pemeriksaan organ dalam",
+        "dimana ruangan poli penyakit dalam",
+        "Gangguan organ dalam cek dimana",
+        "Sesak nafas cek dimana",
+        "Nafas sesak periksa dimana",
+        "Flu periksa dimana",
+        "Batuk periksa dimana",
+        "lantai berapa poli penyakit dalam",
+        "poli penyakit dalam dimana ya",
+        "di gedung apa poli penyakit dalam",
+        "pemeriksaan penyakit organ dalam di poli apa",
+        "dimana saya bisa memeriksa penyakit organ dalam ",
+        "pemeriksaan "
       ],
       "responses": [
         "",
@@ -1170,27 +1258,7 @@
       ]
     },
     {
-      "tag": "Poli Hematologi/Thalassemia",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Orthtodenti",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Prhostodenti",
+      "tag": "Poli Hematologi / Thalassemia",
       "patterns": [
         "  "
       ],
@@ -1220,7 +1288,17 @@
       ]
     },
     {
-      "tag": "Orthtodenti",
+      "tag": "Stok Darah",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Farmasi",
       "patterns": [
         "  "
       ],
@@ -1230,13 +1308,151 @@
       ]
     },
     {
-      "tag": "Orthtodenti",
+      "tag": "Jadwal Dokter",
       "patterns": [
-        "  "
+        "Jadwal Dokter bisa dilihat dimana",
+        "Apa jadwal Dokter hari ini?",
+        "Jadwal Dokter Saraf",
+        "Jadwal Dokter Syaraf",
+        "Jadwal Dokter Saraf buka jam berapa",
+        "Jadwal Dokter saraf buka hari apa",
+        "Jadwal Dokter Syaraf buka jam berapa",
+        "Jadwal Dokter syaraf buka hari apa",
+        "Jadwal Dokter THT",
+        "Jadwal Dokter THT buka jam berapa",
+        "Jadwal Dokter THT buka hari apa",
+        "Jadwal Dokter Telinga (THT)",
+        "Jadwal Dokter Telinga (THT) buka jam berapa",
+        "Jadwal Dokter Telinga (THT) buka hari apa",
+        "Jadwal Dokter Hidung (THT) buka jam berapa",
+        "Jadwal Dokter Hidung (THT) buka hari apa",
+        "Jadwal Dokter Tenggorokan(THT) buka jam berapa",
+        "Jadwal Dokter Tenggorokan (THT) buka hari apa",
+        "Jadwal Dokter Urologi",
+        "Jadwal Dokter Urologi buka jam berapa",
+        "Jadwal Dokter Urologi buka hari apa",
+        "Jadwal Dokter Kandung Kemih (Urologi)",
+        "Jadwal Dokter Kandung Kemih (Urologi) buka jam berapa",
+        "Jadwal Dokter Kandung Kemih (Urologi) buka hari apa",
+        "Jadwal Dokter mata",
+        "Jadwal Dokter mata buka jam berapa",
+        "Jadwal Dokter mata buka hari apa",
+        "Jadwal Dokter Bedah Onkologi",
+        "Jadwal Dokter Bedah Onkologi Buka jam berapa?",
+        "Jadwal Dokter Bedah Onkologi Buka hari apa?",
+        "Jadwal Dokter Bedah Kanker (Onkologi) ",
+        "Jadwal Dokter Bedah Kanker (Onkologi) Buka jam berapa?",
+        "Jadwal Dokter Bedah Kanker (Onkologi) Buka hari apa?",
+        "Jadwal Dokter Bedah Digestif",
+        "Jadwal Dokter Bedah Digestif buka jam berapa",
+        "Jadwal Dokter Bedah Digestif buka hari apa",
+        "Jadwal Dokter Bedah Pencernaan (Digestif) buka jam berapa",
+        "Jadwal Dokter Bedah Pencernaan (Digestif) buka hari apa",
+        "Jadwal Dokter Jantung dan Pembuluh Darah",
+        "Jadwal Dokter Jantung dan Pembuluh Darah buka jam berapa",
+        "Jadwal Dokter Jantung dan Pembuluh Darah buka hari apa",
+        "Jadwal Dokter Paru-Paru",
+        "Jadwal Dokter Paru-Paru buka jam berapa?",
+        "Jadwal Dokter Paru-Paru buka jam hari apa?",
+        "Jadwal Dokter Bedah Saraf",
+        "Jadwal Dokter Bedah Saraf buka jam berapa",
+        "Jadwal Dokter Bedah Saraf buka hari apa",
+        "Jadwal Dokter Bedah Syaraf",
+        "Jadwal Dokter Bedah Syaraf buka jam berapa",
+        "Jadwal Dokter Bedah Syaraf buka hari apa",
+        "Jadwal Dokter Bedah",
+        "Jadwal Dokter Bedah buka jam berapa?",
+        "Jadwal Dokter Bedah buka hari apa?",
+        "Jadwal Dokter Anak",
+        "Jadwal Dokter Anak buka jam berapa?",
+        "Jadwal Dokter Anak buka hari apa?",
+        "Jadwal Dokter Orthopedi",
+        "Jadwal Dokter Orthopedi buka jam berapa?",
+        "Jadwal Dokter Orthopedi buka hari apa?",
+        "Jadwal Dokter Penyakit Dalam buka jam berapa?",
+        "Jadwal Dokter Penyakit Dalam buka hari apa?",
+        "Jadwal Dokter Penyakit Kulit dan Kelamin buka jam berapa",
+        "Jadwal Dokter Penyakit Kulit dan Kelamin buka hari apa",
+        "Jadwal Dokter Gizi",
+        "Jadwal Dokter Gigi buka jam berapa?",
+        "Jadwal Dokter Gizi buka hari apa?",
+        "Jadwal Dokter Gastro",
+        "Jadwal Dokter Gastro buka jam berapa?",
+        "Jadwal Dokter Gastro buka hari apa?",
+        "Jadwal Dokter Paru Anak",
+        "Jadwal Dokter Paru Anak buka jam berapa",
+        "Jadwal Dokter Paru Anak buka hari apa",
+        "Jadwal Dokter Bedah Vaskuler",
+        "Jadwal Dokter Bedah Vaskuler buka jam berapa",
+        "Jadwal Dokter Bedah Vaskuler buka hari apa",
+        "Jadwal Dokter Bedah Pembuluh Darah",
+        "Jadwal Dokter Bedah Pembuluh Darah buka jam berapa",
+        "Jadwal Dokter Bedah Pembuluh Darah buka hari apa",
+        "Jadwal Dokter Tindakan Endoskopi",
+        "Jadwal Dokter Tindakan Endoskopi buka jam berapa",
+        "Jadwal Dokter Tindakan Endoskopi buka hari apa",
+        "Jadwal Dokter Rehabilitasi Medik",
+        "Jadwal Dokter Rehabilitasi Medik buka jam berapa",
+        "Jadwal Dokter Rehabilitasi Medik buka hari apa",
+        "Jadwal Dokter Hematologi/Thalassemia",
+        "Jadwal Dokter Hematologi/Thalassemia buka jam berapa?",
+        "Jadwal Dokter Hematologi/Thalassemia buka hari apa",
+        "Jadwal Dokter DOTS",
+        "Jadwal Dokter DOTS buka jam berapa?",
+        "Jadwal Dokter DOTS buka hari apa?",
+        "Jadwal Dokter TB-MDR",
+        "Jadwal Dokter TB-MDR buka jam berapa",
+        "Jadwal Dokter TB-MDR buka hari apa",
+        "Jadwal Dokter Check up",
+        "Jadwal Dokter Check up buka jam berapa",
+        "Jadwal Dokter Check up buka hari apa",
+        "Jadwal Dokter Endodonsi",
+        "Jadwal Dokter Endodonsi buka jam berapa",
+        "Jadwal Dokter Endodonsi buka hari apa",
+        "Jadwal Dokter Onkologi dan Ginekologi",
+        "Jadwal Dokter Onkologi dan Ginekologi buka jam berapa",
+        "Jadwal Dokter Onkologi dan Ginekologi buka hari apa",
+        "Jadwal Dokter Kanker Rahim",
+        "Jadwal Dokter Kanker Rahim buka jam berapa",
+        "Jadwal Dokter Kanker Rahim buka hari apa",
+        "Jadwal Dokter Kanker Ovarium",
+        "Jadwal Dokter Kanker Ovarium buka jam berapa",
+        "Jadwal Dokter Kanker Ovarium buka hari apa",
+        "Jadwal Dokter Kanker Vagina",
+        "Jadwal Dokter Kanker Vagina buka jam berapa",
+        "Jadwal Dokter Kanker Vagina buka hari apa",
+        "Jadwal Dokter VCT",
+        "Jadwal Dokter VCT buka jam berapa",
+        "Jadwal Dokter VCT buka hari apa",
+        "Jadwal Dokter HIV",
+        "Jadwal Dokter HIV buka jam berapa",
+        "Jadwal Dokter HIV buka hari apa",
+        "Jadwal Dokter Kebidanan",
+        "Jadwal Dokter Kebidanan buka jam berapa",
+        "Jadwal Dokter Kebidanan buka hari apa",
+        "Jadwal Dokter Orthtodenti",
+        "Jadwal Dokter Orthtodenti buka jam berapa",
+        "Jadwal Dokter Orthtodenti buka hari apa",
+        "Jadwal Dokter Prhostodenti",
+        "Jadwal Dokter Prhostodenti buka jam berapa",
+        "Jadwal Dokter Prhostodenti buka hari apa",
+        "Jadwal Dokter Ganti Gigi",
+        "Jadwal Dokter Ganti Gigi buka jam berapa",
+        "Jadwal Dokter Ganti Gigi buka hari apa",
+        "Jadwal Dokter Anestesi",
+        "Jadwal Dokter Anestesi buka jam berapa",
+        "Jadwal Dokter Anestesi buka hari apa",
+        "Jadwal Dokter Bius (Anestesi)",
+        "Jadwal Dokter Bius buka jam berapa",
+        "Jadwal Dokter Bius buka hari apa",
+        "Jadwal Dokter Onkologi Kebidanan",
+        "Jadwal Dokter Onkologi Kebidanan jam berapa",
+        "Jadwal Dokter Onkologi Kebidanan buka hari apa",
+        "Jadwal Dokter bisa dilihat dimana"
       ],
       "responses": [
-        "",
-        ""
+        "Untuk Melihat jadwal Dokter silahkan kunjungi instagram kami <br><a  href=https://www.instagram.com/inforsmy_bengkulu/ target=_blank rel=noopener noreferrer>@inforsmy_bengkulu</a> ",
+        "Kunjungi instagram kami <br><a  href=https://www.instagram.com/inforsmy_bengkulu/ target=_blank rel=noopener noreferrer>@inforsmy_bengkulu</a> Untuk melihat jadwal Dokter "
       ]
     },
     {
