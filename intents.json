@@ -520,8 +520,10 @@
         "Loket pembayaran ada dimana?",
         "Dimana ruangan untuk mengurus administrasi pembayaran?",
         "Cek tarif dimana",
+        "Tempat bayar tagihan dimana",
         "Cek biaya pengobatan dimana",
-        "Tempat bayar dimana?"
+        "Tempat bayar dimana?",
+        "dimana tempat mengurus administrasi pembayaran"
       ],
       "responses": [
         "Di Gedung A Lantai 1",
@@ -981,8 +983,8 @@
         "ruang sehat khusus menyusui disebelah mana"
       ],
       "responses": [
-        "",
-        ""
+        "Mohon maaf untuk saat ini rumah sakit belum menyediakan bilik untuk ibu menyusui",
+        "Mohon maaf, kami belum menyediakan bilik khusus untuk ibu menyusui"
       ]
     },
     {
@@ -1002,8 +1004,8 @@
         "ruangan khusus merokok dimana"
       ],
       "responses": [
-        "",
-        ""
+        "Berdasarkan Perda 15 tahun 2017, Rumah sakit merupakan salah satu tempat yang termasuk kawasan tanpa asap rokok. Pengunjung maupun keluarga pasien dilarang merokok di lingkungan rumah sakit.",
+        "Mohon maaf, berdasarkan Perda 15 tahun 2017, dilarang merokok di rumah sakit:))"
       ]
     },
     {
@@ -1089,8 +1091,8 @@
         "Cabut gigi bungsu dimana"
       ],
       "responses": [
-        "",
-        ""
+        "Di Gedung A Lantai 1",
+        "Poli gigi di Gedung A Lantai 1"
       ]
     },
     {
@@ -1144,8 +1146,8 @@
         "perawatan prostesis gigi sebaiknya ke poli apa?"
       ],
       "responses": [
-        "",
-        ""
+        "Di Gedung A Lantai 1",
+        "Ada di Gedung A Lantai 1"
       ]
     },
     {
@@ -1165,8 +1167,8 @@
         "pemeriksaan mengenai penyakit pada organ bagian dalam,"
       ],
       "responses": [
-        "",
-        ""
+        "Poli Penyakit Dalam di Gedung A lantai 1",
+        "Ada di Gedung A Lantai 1 "
       ]
     },
     {
@@ -1210,46 +1212,6 @@
       "responses": [
         "Poli Kebidanan di Gedung A Lantai 1",
         "Ada di gedung A Lantai 1"
-      ]
-    },
-    {
-      "tag": "Poli VCT",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Hematologi / Thalassemia",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Tindakan Enkoskopi",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Rehabilitasi Medik",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
       ]
     },
     {
