@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "sapaan",
+      "tag": "Sapaan",
       "patterns": [
         "Hi",
         "Hy",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "tag": "terimakasih",
+      "tag": "Terimakasih",
       "patterns": [
         "Thanks",
         "Thank you",
@@ -32,8 +32,8 @@
         "Makasih"
       ],
       "responses": [
-        "Senang bisa membantumu!:) <br>Kunjungi kami: <br><a  href=https://www.instagram.com/jumli.gazali/ target=_blank rel=noopener noreferrer>M. Jumli </a> untuk informasi lebih lanjut",
-        "Sama-sama :)!:) <br>Kunjungi kami: <br><a target=_blank rel=noopener noreferrer href=https://www.instagram.com/jumli.gazali/>M. Jumli </a> untuk informasi lebih lanjut"
+        "Senang bisa membantumu!:)",
+        "Sama-sama :)!"
       ]
     },
     {
@@ -41,16 +41,17 @@
       "patterns": [
         "Apa yang bisa kamu lakukan",
         "Kamu bisa apa",
-        "bisa",
+        "bisa apa",
         "Kamu siapa?",
-        "Aneh"
+        "Kamu Aneh",
+        "Kamu Gak jelas"
       ],
       "responses": [
         "Haloo! ChatBot ini didesain untuk menjawab beberapa pertanyaan dasar mengenai Ruangan di Rumah Sakit M.Yunus dalam bahasa Indonesia, <br>apa yang bisa saya bantu?"
       ]
     },
     {
-      "tag": "salam",
+      "tag": "Salam",
       "patterns": [
         "Assalamualaikum",
         "Assalamualaikum warahmatullahi",
@@ -137,8 +138,6 @@
         "Loket Pendaftaran dimana?",
         "Dimana tempat ambil antrian?",
         "Pertama kali ke Rumah Sakit harus kemana?",
-        "apa bisa daftar online",
-        "format untuk daftar online",
         "Mau mendaftar"
       ],
       "responses": [
@@ -166,8 +165,8 @@
         "tempat lahir"
       ],
       "responses": [
-        "Di Gedung A, Lantai 1",
-        "Lantai 1 Gedung A"
+        "Ada di Gedung A, Lantai 1",
+        "Ada di Lantai 1 Gedung A"
       ]
     },
     {
@@ -180,11 +179,13 @@
         "Dimana mengambil obat resep dokter?",
         "Tempat tebus obat dimana?",
         "Mau ambil obat dimana",
-        "Mau dapat obat dimana"
+        "Mau dapat obat dimana",
+        "ruang farmasi dimana",
+        "Ada ruang farmasi?"
       ],
       "responses": [
-        "Di Gedung A Lantai 1",
-        "Gedung A Lantai 1"
+        "Ada di Gedung A Lantai 1",
+        "Ada di Gedung A Lantai 1"
       ]
     },
     {
@@ -214,8 +215,8 @@
         "Dimana letak ruangan VIP A?"
       ],
       "responses": [
-        " Di Gedung C Lantai 1",
-        "Lantai 1 Gedung C"
+        "Ada di Gedung C Lantai 1",
+        "Ada di Lantai 1 Gedung C"
       ]
     },
     {
@@ -227,8 +228,8 @@
         "Dimana letak ruangan teratai?"
       ],
       "responses": [
-        "Teratai",
-        " Di Gedung Teratai, disebelah Selatan VIP A"
+        "Di Gedung Teratai",
+        "Di Gedung Teratai, disebelah Selatan VIP A"
       ]
     },
     {
@@ -240,7 +241,7 @@
       ],
       "responses": [
         "Ruang Rawat Inap C2 atau Seruni berada di Gedung C Lantai 1",
-        " Di Gedung Teratai"
+        "Ada di Di Gedung Teratai lantai 1"
       ]
     },
     {
@@ -252,8 +253,8 @@
         "Dimana letak ruangan mawar?"
       ],
       "responses": [
-        " Di Gedung C Lantai 1",
-        "Lantai 1 Gedung C"
+        "Ada di Gedung C Lantai 1",
+        "Ada di Lantai 1 Gedung C"
       ]
     },
     {
@@ -262,25 +263,12 @@
         "Dimana ruangan kamboja?",
         "Lantai berapa ruang kamboja?",
         "Ruang kamboja dimana?",
-        "Dimana kamar ayat?",
+        "Dimana kamar mayat?",
         "Dimana letak kamar mayat?"
       ],
       "responses": [
-        "Di Gedung kamboja",
-        "Gedung kamboja"
-      ]
-    },
-    {
-      "tag": "Kemuning",
-      "patterns": [
-        "Dimana ruangan kemuning?",
-        "Lantai berapa ruang kemuning?",
-        "Ruang kemuning dimana?",
-        "Dimana letak ruang kemuning?"
-      ],
-      "responses": [
-        "Kemuning",
-        "Kemuninggg1"
+        "Ada di Gedung kamboja",
+        "Ada di Gedung kamboja"
       ]
     },
     {
@@ -314,8 +302,8 @@
         "Mau ambil darah dimana?"
       ],
       "responses": [
-        " Di Gedung PMI",
-        "Gedung PMI"
+        "Di Gedung PMI",
+        "Ada di Gedung PMI"
       ]
     },
     {
@@ -833,6 +821,59 @@
       ]
     },
     {
+      "tag": "Syarat BPJS",
+      "patterns": [
+        "kalau pakai BPJS apa saja syaratnya?",
+        "Syarat pakai BPJS apa saja",
+        "Administrasi yang diperlukan untuk pasien BPJS",
+        "Persyaratan mendaftar pakai bpjs?",
+        "Persyaratan menjadi pasien bpjs?",
+        "Bagaimana menjadi pasien bpjs",
+        "Syarat pakai BPJS",
+        "apa syarat bpjs",
+        "saya ingin mendaftar sebagai pasien bpjs, syaratnya apa ya",
+        "syarat jadi pasien bpjs apa?",
+        "bagaimana cara mendaftar pasien bpjs",
+        "pendaftaran pasien bpjs apa saja syaratnya",
+        "apa saja syarat mendaftar sebagai pasien bpjs",
+        "mendaftar menggunakan bpjs bagaimana caranya",
+        "pendaftaran menggunakan bpjs",
+        "administrasi pendaftaran pasien bpjs apa saja",
+        "bagaimana prosedur persyaratan pasien bpjs"
+      ],
+      "responses": [
+        "Kartu BPJS asli beserta 1 lembar fotocopy, KTP, Kartu Keluarga, dan surat rujukan dari faskes 1",
+        "Persyaratannya adalah : Kartu BPJS asli beserta 1 lembar fotocopy, KTP, Kartu Keluarga, dan surat rujukan dari faskes 1"
+      ]
+    },
+    {
+      "tag": "Pendaftaran Online",
+      "patterns": [
+        "Bisa daftar online",
+        "ada Loket online?",
+        "Apa bisa daftar secara online?",
+        "Besok besok kalau mau mendaftar secara online apakah bisa?",
+        "Apakah ada prosedur pendaftaran secara online?",
+        "Bisa ambil nomor antrian secara online gak?",
+        "Apa ada Formulir pendaftaran secara online?",
+        "Apa ada cara mengambil antrian online?",
+        "Rumah sakit ini bisa daftar online?",
+        "RSMY bisa mendaftar online?",
+        "Cara mendaftar online? ",
+        "Bagaimana cara mendaftar online",
+        "Bisakah saya mendaftar secara online?",
+        "Prosedur pendaftaran online bagaimana",
+        "Apakah bisa mendaftar poli secara online?",
+        "Administrasi online apa saja",
+        "Mau mendaftar pasien poli boleh online tidak?",
+        "Bagaimana mendaftar pasien online"
+      ],
+      "responses": [
+        "Silahkan mendaftar melalui aplikasi kami RSUD M Yunus Bengkulu di Google Playstore <br><a  href=https://rsudmyunus.id/pendaftaran-online/ target=_blank rel=noopener noreferrer>Unduh disini</a>",
+        "Bisa mendaftar melalui aplikasi RSUD M Yunus Bengkulu di Google Playstore <br><a  href=https://rsudmyunus.id/pendaftaran-online/ target=_blank rel=noopener noreferrer>Unduh disini</a>"
+      ]
+    },
+    {
       "tag": "Denah",
       "patterns": [
         "Dimana saya bisa melihat denah rumah sakit ini?",
@@ -884,57 +925,6 @@
         "Di Gedung A Lantai 1 ada miniatur RSMY",
         "Di depan pintu masuk gedung A ada miniatur RSMY",
         "Silahkan kunjungi gedung A, miniatur rsmy ada di depan pintu masuk"
-      ]
-    },
-    {
-      "tag": "Syarat BPJS",
-      "patterns": [
-        "kalau pakai BPJS apa saja syaratnya?",
-        "Syarat pakai BPJS apa saja",
-        "Administrasi yang diperlukan untuk pasien BPJS",
-        "Persyaratan mendaftar pakai bpjs?",
-        "Persyaratan menjadi pasien bpjs?",
-        "Bagaimana menjadi pasien bpjs",
-        "Syarat pakai BPJS",
-        "apa syarat bpjs",
-        "saya ingin mendaftar sebagai pasien bpjs, syaratnya apa ya",
-        "syarat jadi pasien bpjs apa?",
-        "bagaimana cara mendaftar pasien bpjs",
-        "pendaftaran pasien bpjs apa saja syaratnya",
-        "apa saja syarat mendaftar sebagai pasien bpjs",
-        "mendaftar menggunakan bpjs bagaimana caranya",
-        "pendaftaran menggunakan bpjs",
-        "administrasi pendaftaran pasien bpjs apa saja",
-        "bagaimana prosedur persyaratan pasien bpjs"
-      ],
-      "responses": [
-        "Kartu BPJS asli beserta 1 lembar fotocopy, KTP, Kartu Keluarga, dan surat rujukan dari faskes 1",
-        "Persyaratannya adalah : Kartu BPJS asli beserta 1 lembar fotocopy, KTP, Kartu Keluarga, dan surat rujukan dari faskes 1"
-      ]
-    },
-    {
-      "tag": "Pendaftaran Online",
-      "patterns": [
-        "Apa bisa daftar secara online?",
-        "Besok besok kalau mau mendaftar secara online apakah bisa?",
-        "Apakah ada prosedur pendaftaran secara online?",
-        "Bisa ambil nomor antrian secara online gak?",
-        "Apa ada Formulir pendaftaran secara online?",
-        "Apa ada cara mengambil antrian online?",
-        "Rumah sakit ini bisa daftar online?",
-        "RSMY bisa mendaftar online?",
-        "Cara mendaftar online? ",
-        "Bagaimana cara mendaftar online",
-        "Bisakah saya mendaftar secara online?",
-        "Prosedur pendaftaran online bagaimana",
-        "Apakah bisa mendaftar poli secara online?",
-        "Administrasi online apa saja",
-        "Mau mendaftar pasien poli boleh online tidak?",
-        "Bagaimana mendaftar pasien online"
-      ],
-      "responses": [
-        "Silahkan mendaftar melalui aplikasi kami RSUD M Yunus Bengkulu di Google Playstore <br><a  href=https://rsudmyunus.id/pendaftaran-online/ target=_blank rel=noopener noreferrer>Unduh disini</a>",
-        "Bisa mendaftar melalui aplikasi RSUD M Yunus Bengkulu di Google Playstore <br><a  href=https://rsudmyunus.id/pendaftaran-online/ target=_blank rel=noopener noreferrer>Unduh disini</a>"
       ]
     },
     {
@@ -1017,6 +1007,49 @@
       ]
     },
     {
+      "tag": "Poli Paru - paru",
+      "patterns": [
+        "Periksa paru - paru dimana",
+        "Periksa paru2 dimana",
+        "Tempat yang melayani sakit paru-paru dimana",
+        "Gangguan paru-paru cek dimana",
+        "cek paru-paru basah dimana",
+        "Sesak Nafas cek dimana",
+        "Dada terasa gatal cek dimana",
+        "Batuk2 cek kemana",
+        "Nafas sesak periksa dimana",
+        "Poli paru-paru dimana?",
+        "Ruangan poli paru di sebelah mana ya",
+        "pemeriksaan penyakit paru-paru dimana?",
+        "sakit batuk yang berkepanjangan, ke poli apa",
+        "konsultasi penyakit sesak napas sebaiknya ke poli apa",
+        "penyakit gagal napas sebaiknya ke poli apa",
+        "lantai berapa ruangan poli paru",
+        "ruangan poli paru dimana",
+        "gedung apa poli paru",
+        "poli paru terletak di gedung mana",
+        "pemeriksaan penyakit pada sistem pernapasan dimana",
+        "apa nama poli pemeriksan gangguan pada sistem pernapasan",
+        "mengobati mengi sebaiknya kemana",
+        "gangguan sistem pernapasan konsultasi kemana?",
+        "penyakit pneumonia sebaiknya konsultasi kemana",
+        "penyakit tuberkulosis paru konsultasi kemana",
+        "penyakit tbc paru sebaiknya berobat kemana",
+        "penyakit asma konsultasi kemana",
+        "Asma kambuh cek kemana",
+        "Nafas berat cek dimana",
+        "Nafas tersendat cek dimana",
+        "Susah Nafas cek dimana",
+        "pemeriksaan gangguan organ paru",
+        "penyakit bronkitis konsultasi kemana",
+        "dimana ruangan pulmonolog"
+      ],
+      "responses": [
+        "Poli Paru terletak di Gedung IGD Lantai 1",
+        "Poli Paru - paru terletak di Gedung IGD Lantai 1"
+      ]
+    },
+    {
       "tag": "Poli Gigi",
       "patterns": [
         "Mau periksa gigi dimana",
@@ -1061,7 +1094,7 @@
       ]
     },
     {
-      "tag": "Poli Orthtodenti",
+      "tag": "Poli Gigi spesialis Orthtodenti, Prhostodenti, Endodonsi",
       "patterns": [
         "Poli Orthtodenti dimana",
         "Ruangan poli Orthtodenti ada dimana",
@@ -1092,16 +1125,7 @@
         "mau ganti karet behel dimana ya?",
         "mau pasang karet behel yang baru sebaiknya ke poli apa",
         "Memperbaiki gigi tonggos dimana",
-        "Memperbaiki gigi Berantakan dimana"
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Prhostodenti",
-      "patterns": [
+        "Memperbaiki gigi Berantakan dimana",
         "Gusi bengkak kemana?",
         "Gusi Linu Kemana",
         "Gusi Nyeri kemana",
@@ -1138,7 +1162,7 @@
         "di gedung apa poli penyakit dalam",
         "pemeriksaan penyakit organ dalam di poli apa",
         "dimana saya bisa memeriksa penyakit organ dalam ",
-        "pemeriksaan "
+        "pemeriksaan mengenai penyakit pada organ bagian dalam,"
       ],
       "responses": [
         "",
@@ -1146,46 +1170,66 @@
       ]
     },
     {
-      "tag": "Poli Paru - paru",
+      "tag": "Poli Kebidanan",
       "patterns": [
-        "Periksa paru - paru dimana",
-        "Periksa paru2 dimana",
-        "Tempat yang melayani sakit paru-paru dimana",
-        "Gangguan paru-paru cek dimana",
-        "cek paru-paru basah dimana",
-        "Sesak Nafas cek dimana",
-        "Dada terasa gatal cek dimana",
-        "Batuk2 cek kemana",
-        "Nafas sesak periksa dimana",
-        "Poli paru-paru dimana?",
-        "Ruangan poli paru di sebelah mana ya",
-        "pemeriksaan penyakit paru-paru dimana?",
-        "sakit batuk yang berkepanjangan, ke poli apa",
-        "konsultasi penyakit sesak napas sebaiknya ke poli apa",
-        "penyakit gagal napas sebaiknya ke poli apa",
-        "lantai berapa ruangan poli paru",
-        "ruangan poli paru dimana",
-        "gedung apa poli paru",
-        "poli paru terletak di gedung mana",
-        "pemeriksaan penyakit pada sistem pernapasan dimana",
-        "apa nama poli pemeriksan gangguan pada sistem pernapasan",
-        "mengobati mengi sebaiknya kemana",
-        "gangguan sistem pernapasan konsultasi kemana?",
-        "penyakit pneumonia sebaiknya konsultasi kemana",
-        "penyakit tuberkulosis paru konsultasi kemana",
-        "penyakit tbc paru sebaiknya berobat kemana",
-        "penyakit asma konsultasi kemana",
-        "Asma kambuh cek kemana",
-        "Nafas berat cek dimana",
-        "Nafas tersendat cek dimana",
-        "Susah Nafas cek dimana",
-        "pemeriksaan gangguan organ paru",
-        "penyakit bronkitis konsultasi kemana",
-        "dimana ruangan pulmonolog"
+        "Periksa kandungan dimana",
+        "Periksa Kehamilan dimana",
+        "Hamil periksa dimana",
+        "cek kandungan dimana",
+        "cek Kehamilan dimana",
+        "Hamil cek dimana",
+        "Mau Periksa kandungan dimana",
+        "Mau Periksa Kehamilan dimana",
+        "Mau cek kandungan dimana",
+        "Hamil cek dimana",
+        "Mau ketemu dokter kandungan dimana",
+        "Mau ketemu bidan dimana",
+        "Konsultasi keluarga berencana dimana",
+        "Konsultasi KB dimana",
+        "Konsultasi pil keluarga berencana dimana",
+        "Konsultasi Pil KB dimana",
+        "dimana ruangan poli kebidanan?",
+        "dimana ruangan pemeriksaan kandungan",
+        "lantai berapa poli kandungan",
+        "dimana ruangan dokter kandungan",
+        "kalau ingin cek kandungan dimana ya?",
+        "saya ingin memeriksa kandungan di ruangan mana ya?",
+        "ingin usg kehamilan di poli apa?",
+        "konsultasi kandungan di ruangan mana ya",
+        "saya ingin konsultasi pasca operasi melahirkan dimana",
+        "saya ingin konsultasi setelah operasi melahirkan dimana",
+        "poli untuk pemeriksaan ibu hamil",
+        "poli yang melayani ibu bersalin di ruangan mana",
+        "dimana saya ingin konsultasi tentang promil",
+        "konsultasi program hamil di ruangan mana",
+        "usg kehamilan di ruangan apa",
+        "pemeriksaan pra operasi caesar dimana ya",
+        "ruang pemeriksaan khusus ibu hamil",
+        "dimana ruang dokter spesialis kandungan"
       ],
       "responses": [
-        "Poli Paru terletak di Gedung IGD Lantai 1",
-        "Poli Paru - paru terletak di Gedung IGD Lantai 1"
+        "Poli Kebidanan di Gedung A Lantai 1",
+        "Ada di gedung A Lantai 1"
+      ]
+    },
+    {
+      "tag": "Poli VCT",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "Poli Hematologi / Thalassemia",
+      "patterns": [
+        "  "
+      ],
+      "responses": [
+        "",
+        ""
       ]
     },
     {
@@ -1209,63 +1253,29 @@
       ]
     },
     {
-      "tag": "Poli Endodonsi",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli VCT",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Kebidanan",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Poli Hematologi / Thalassemia",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
-      ]
-    },
-    {
       "tag": "Stok Darah",
       "patterns": [
-        ""
+        "Stok darah ambil dimana?",
+        "apakah stok darah A ada",
+        "apakah stok darah B ada",
+        "apakah stok darah AB ada",
+        "apakah stok darah O ada",
+        "apa stok darah A ada",
+        "apa stok darah B ada",
+        "apa stok darah AB ada",
+        "apa stok darah O ada",
+        "Mau ambil kantong darah A ada",
+        "Mau ambil kantong B ada",
+        "Mau ambil kantong AB ada",
+        "Mau ambil kantong O ada",
+        "Berapa kantong darah A yang tersedia",
+        "Berapa kantong darah B yang tersedia",
+        "Berapa kantong darah AB yang tersedia",
+        "Berapa kantong darah O yang tersedia"
       ],
       "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "Farmasi",
-      "patterns": [
-        "  "
-      ],
-      "responses": [
-        "",
-        ""
+        "Silahkan kunjungi Gedung Bank Darah",
+        "Silahkan ke Gedung Bank Darah Rumah Sakit (BDRS) untuk info lebih lanjut"
       ]
     },
     {
