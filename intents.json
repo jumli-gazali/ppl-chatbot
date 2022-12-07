@@ -29,7 +29,8 @@
         "Thank you",
         "Terimakasih",
         "Terimakasih banyak",
-        "Makasih"
+        "Makasih",
+        "Thankyou"
       ],
       "responses": [
         "Senang bisa membantumu!:)",
@@ -138,7 +139,8 @@
         "Loket Pendaftaran dimana?",
         "Dimana tempat ambil antrian?",
         "Pertama kali ke Rumah Sakit harus kemana?",
-        "Mau mendaftar"
+        "Mau mendaftar",
+        "Mau daftar pasien"
       ],
       "responses": [
         "Mendaftar Di Gedung A, Lantai 1",
@@ -176,6 +178,7 @@
         "Dimana apotek?",
         "Dimana tempat pengambilan obat?",
         "Apotek dimana?",
+        "Mau tebus resep dokter",
         "Dimana mengambil obat resep dokter?",
         "Tempat tebus obat dimana?",
         "Mau ambil obat dimana",
@@ -195,7 +198,9 @@
         "Bisa bayar pakai BPJS?",
         "Obatnya bisa pakai BPJS?",
         "Bisa pakai BPJS gak?",
-        "Apakah ditanggung BPJS?"
+        "Apakah ditanggung BPJS?",
+        "Apa bisa bayar pakai askes?",
+        "apa bisa bayar pakai asuransi"
       ],
       "responses": [
         "Bagi peserta bpjs obat akan dibayarkan oleh bpjs",
@@ -264,7 +269,9 @@
         "Lantai berapa ruang kamboja?",
         "Ruang kamboja dimana?",
         "Dimana kamar mayat?",
-        "Dimana letak kamar mayat?"
+        "Dimana letak kamar mayat?",
+        "Dimana kamar jenazah",
+        "ruang jenazah dimana"
       ],
       "responses": [
         "Ada di Gedung kamboja",
@@ -325,7 +332,9 @@
         "Tempat cek darah dimana",
         "Tempat cek golongan darah dimana",
         "Tempat cek Kolesterol dimana",
-        "Ambil hasil cek darah dimana"
+        "Ambil hasil cek darah dimana",
+        "Cek diabetes dimana",
+        "cek Kencing manis dimana"
       ],
       "responses": [
         "Laboratorium, yang letaknya di Gedung B Lantai 1",
@@ -607,6 +616,10 @@
       "patterns": [
         "Dimana ruangan poli jantung?",
         "Lantai berapa poli jantung?",
+        "Dimana ruangan pemeriksaan Hipertensi?",
+        "Dimana ruangan pemeriksaan Anemia?",
+        "Dimana ruangan pemeriksaan Leukimia?",
+        "Dimana ruangan pemeriksaan kelebihan darah putih",
         "Dimana ruangan pemeriksaan tekanan darah tinggi?",
         "Dimana ruangan pemeriksaan tekanan darah rendah?",
         "Dimana ruangan pemeriksaan penyakit jantung bawaan?",
@@ -629,7 +642,12 @@
         "Poli bedah saraf ada dimana?",
         "Dimana ruang poli bedah syaraf?",
         "Lantai berapa ruangan poli bedah syaraf?",
-        "Poli bedah syaraf ada dimana?"
+        "Penyakit stroke cek dimana",
+        "Penyakit struk cek dimana",
+        "Perawatan stroke cek dimana",
+        "Saraf ter jepit cek dimana",
+        "Poli bedah syaraf ada dimana?",
+        "Cek k"
       ],
       "responses": [
         "Poli Bedah Saraf terletak di Gedung A Lantai 1",
@@ -713,7 +731,13 @@
         "Lantai berapa ruangan poli bedah digestif?",
         "Dimana ruangan pemeriksaan penyakit BAB berdarah?",
         "Ruang Poli bedah digestif ada dimana?",
-        "BAB berdarah cek dimana"
+        "Sakit magh dimana",
+        "Sakit Lambung cek dimana dimana",
+        "Sakit asam lambung kemana",
+        "BAB berdarah cek dimana",
+        "periksa usus buntu dimana",
+        "Sakit usus",
+        "Cek sembelit dimana"
       ],
       "responses": [
         "Poli bedah terletak di Gedung A Lantai 1",
@@ -735,7 +759,8 @@
         "Sakit mata periksa dimana",
         "Dimana tempat Mata Sakit",
         "Mata berlendir cek dimana",
-        "Mata bengkak cek dimana"
+        "Mata bengkak cek dimana",
+        "Mata berair cek dimana"
       ],
       "responses": [
         "Poli mata terletak di Di Gedung A Lantai 2",
@@ -770,6 +795,8 @@
         "Dimana poli urologi?",
         "Lantai berapa ruang poli urologi?",
         "Dimana ruangan pemeriksaan gangguan pada saluran kemih?",
+        "Sakit kandung kemih dimana",
+        "Kandung kemih",
         "Dimana ruangan pemeriksaan penyakit prostat?",
         "Dimana ruangan pemeriksaan penyakit hematuria?",
         "Ruang poli urologi dimana?",
