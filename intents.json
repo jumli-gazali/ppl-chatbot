@@ -1199,6 +1199,43 @@
       ]
     },
     {
+      "tag": "Ambulance",
+      "patterns": [
+        "apakah layanan ambulance tersedia",
+        "Pesan ambulance gimana",
+        "apa ada ambulance tersedia?",
+        "Kami butuh ambulance",
+        "kemana saya mencari informasi mengenai ambulance",
+        "apakah hari ini ambulance tersedia",
+        "ambulance rsmy hari ini",
+        "bagaimana layanan ambulance hari ini",
+        "ingin menggunakan layanan ambulance",
+        "ambulance yang tersedia",
+        "hubungi ambulance kemana",
+        "contact yang dihubungi untuk menggunakan ambulance",
+        "cp untuk menggunakan ambulance",
+        "dimana saya bisa mengetahui informasi ambulance yang tersedia",
+        "mau pesan ambulance",
+        "apakah layanan ambulan tersedia",
+        "kemana saya mencari informasi mengenai ambulan",
+        "apakah hari ini ambulan tersedia",
+        "ambulan rsmy hari ini",
+        "bagaimana layanan ambulan hari ini",
+        "ingin menggunakan layanan ambulan",
+        "ambulan yang tersedia",
+        "hubungi ambulan kemana",
+        "nomor ambulan berapa",
+        "contact yang dihubungi untuk menggunakan ambulan",
+        "cp untuk menggunakan ambulan",
+        "dimana saya bisa mengetahui informasi ambulan yang tersedia",
+        "mau pesan ambulan"
+      ],
+      "responses": [
+        "Silahkan hubungi operator RSMY untuk info lebih lanjut (0736) 51111 atau (0736) 52004",
+        "Silahkan hubungi Whatsapp kami untuk info lebih lanjut 0811-7311-151"
+      ]
+    },
+    {
       "tag": "Poli Kebidanan",
       "patterns": [
         "Periksa kandungan dimana",
